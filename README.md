@@ -20,7 +20,7 @@ playwright install chromium
 Open `teol_scraper.py` and set:
 
 ```python
-GIT_REMOTE = "git@github.com:yourteam/teol-quiz.git"  # your team's repo
+GIT_REMOTE = "git@github.com:TashaTheInnkeeper/TEOL.git"
 GIT_BRANCH = "main"
 ```
 
@@ -77,7 +77,7 @@ Options:
 ## Teammates: getting the files locally
 
 ```bash
-git clone git@github.com:yourteam/teol-quiz.git
+git clone git@github.com:TashaTheInnkeeper/TEOL.git
 ```
 
 Then open `questions.txt` or browse `html_pages/` in your browser.

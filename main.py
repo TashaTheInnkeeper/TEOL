@@ -42,7 +42,7 @@ IMAGES_DIR     = Path("html_pages/images")  # where downloaded images go
 OUTPUT_TXT     = Path("questions.txt") # final chatbot-ready text file
 SESSION_FILE   = Path("session.json")  # saved login session (cookies + storage)
 
-GIT_REMOTE     = ""   # e.g. "git@github.com:yourteam/teol-quiz.git"
+GIT_REMOTE     = "git@github.com:TashaTheInnkeeper/TEOL.git"   # e.g. "git@github.com:yourteam/teol-quiz.git"
                        # leave empty to skip git push
 GIT_BRANCH     = "main"
 
