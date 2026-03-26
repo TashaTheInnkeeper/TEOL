@@ -16,59 +16,10 @@
 
 ## Question Distribution Strategy
 
-### Robin's Questions (Embedded, IoT, Energy, Robotics)
-- Q1: CO2 emissions (electricitymaps.com)
-- Q3: Solar + EV calculation (mapy.cz)
-- Q6: TSMC solar panel area
-- Q10: ON Semiconductor component (onsemi.com datasheets)
-- Q11: Parking CO2 reduction
-- Q12: Arduino DHT sensor code analysis
-- Q13: SPI/CAN protocol identification
-- Q24: Tesla Bot ROI
-- Q25: Drone vs car delivery logistics
-
-### Filip's Questions (Crypto, Networking, AI/ML, Manufacturing)
-- Q7: Perceptron algorithm execution
-- Q8: CNN architecture dimensions
-- Q9: Federated learning concepts
-- Q14: 5G data transfer calculation
-- Q15: V2V mesh network
-- Q16: 6G research (Czech government docs)
-- Q17: Differential privacy probability
-- Q19: Image encryption transformations
-- Q20: Uniswap smart contract (etherscan.io)
-- Q21: MEV Sandwich attack
-- Q23: 3D printing volume calculation
-
-### Adam's Questions (General, Chemistry)
-- Q2: Battery recycling facts verification
-- Q4: Electron calculation in batteries
-- Q5: EV trip cost/time
-- Q18: GDPR/Avast case
-- Q22: Blue Zones longevity
-
-## Question Categories & Difficulty
-
-### Easy (Quick lookup)
-- Q2: Battery facts - verify true/false
-- Q18: GDPR case - legal lookup
-- Q22: Blue Zones - general knowledge
-
-### Medium (Moderate calculation)
-- Q4: Electron count - chemistry formula
-- Q5: EV trip - multi-step math
-- Q10: Component ID - datasheet lookup
-- Q12: Arduino code - trace logic
-- Q14: 5G bandwidth calculation
-- Q23: 3D print volume - geometry
-
-### Hard (Complex + external data)
-- Q1, Q3, Q6, Q11: Energy calculations + external data
-- Q7, Q8, Q9, Q17: ML algorithms and concepts
-- Q13: Protocol timing diagrams
-- Q15, Q16: Advanced networking
-- Q19, Q20, Q21: Cryptography/blockchain
-- Q24, Q25: Optimization calculations
+Assign questions based on team strengths:
+- **Robin:** Embedded, IoT, energy, robotics questions
+- **Filip:** Crypto, networking, AI/ML, manufacturing questions
+- **Adam:** General knowledge, chemistry questions
 
 ## Required External Tools
 Prepare these tabs before competition:
@@ -79,26 +30,25 @@ Prepare these tabs before competition:
 
 ## Solving Strategies by Type
 
-### Energy/Climate (Q1, Q3, Q6, Q11)
+### Energy/Climate
 1. Fetch data from electricitymaps.com
 2. Watch unit conversions (TWh → kWh → Wh)
-3. Q6 answer was: Hradec Králové (~105 km²)
+3. Cross-reference multiple sources for emission factors
 
-### AI/ML (Q7, Q8, Q9, Q17)
-1. Q7: Execute perceptron step-by-step, track weights
-2. Q8: Calculate layer dimensions through network
-3. Q9: Know terminology (aggregation, differential privacy)
-4. Q17: Coin flip probability math
+### AI/ML
+1. Execute algorithms step-by-step, track intermediate values
+2. Calculate layer dimensions through networks carefully
+3. Know terminology (aggregation, differential privacy, federated learning)
 
-### Blockchain (Q19, Q20, Q21)
-1. Q19: Apply transformation matrices to pixels
-2. Q20: Read contract events on Etherscan
-3. Q21: Understand sandwich attack mechanics
+### Blockchain/Crypto
+1. Use Etherscan to read contract events and transactions
+2. Understand common attack patterns (sandwich, front-running)
+3. Apply transformation matrices carefully for crypto puzzles
 
-### IoT/Embedded (Q10, Q12, Q13)
+### IoT/Embedded
 1. Search datasheets by part number
-2. Trace Arduino code flow carefully
-3. Identify protocol by clock/data patterns
+2. Trace code flow carefully (especially sensor reads)
+3. Identify protocols by clock/data patterns (SPI, I2C, CAN)
 
 ## Claude Instructions
 
@@ -114,7 +64,7 @@ This reduces risk of incorrect answers due to calculation errors or hallucinatio
 ## Competition Day Protocol
 
 1. **Start:** Run `python main.py` to scrape and distribute questions
-2. **Assign:** Each member takes their designated questions
+2. **Assign:** Distribute questions based on team member strengths
 3. **Time limit:** Max 10 min per hard question, then flag and move on
 4. **Cross-check:** Verify calculation answers together before submit
 5. **Communication:** Share findings that might help other questions
