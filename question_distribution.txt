@@ -1,0 +1,57 @@
+Question Distribution by Team Member
+=====================================
+
+Based on team member strengths from CLAUDE.md:
+- Robin: Embedded, IoT, Energetics, Robotics
+- Filip: Crypto, Networking, AI, ML, Manufacturing
+- Adam: General knowledge, Chemistry (all know physics)
+
+
+ROBIN (Embedded, IoT, Energetics, Robotics) - 9 Questions
+---------------------------------------------------------
+Q2  - Lithium mining energy vs. Western Australia electricity production (Energetics + electricitymaps.com)
+Q4  - Battery Management System temperature calculation formulas (Embedded/IoT)
+Q5  - Route energy calculation with elevation using mapy.cz (Energetics)
+Q14 - SPI/I2C communication protocols with MCU peripherals (Embedded)
+Q15 - IoT deployment + CO2 emissions from Czech coal plants (IoT/Energetics)
+Q16 - Smart home weekly energy consumption calculation (IoT/Energetics)
+Q17 - Health sensor data interpretation (VO2max, heart rate, etc.) (IoT)
+Q19 - A* algorithm heuristics for autonomous mobile robots (Robotics)
+Q20 - Drone route optimization with battery consumption (Robotics/Energetics)
+
+
+FILIP (Crypto, Networking, AI, ML, Manufacturing) - 9 Questions
+---------------------------------------------------------------
+Q11 - PCA analysis on genetic data - 3D graph interpretation (ML/AI)
+Q12 - CNN training with Teachable Machine - image classification (AI/ML)
+Q13 - FCDS-CNN skin cancer paper analysis (DOI: 10.1038/s41598-025-91446-6) (AI/ML)
+Q18 - 5G Standalone networking technology in Czech Republic (Networking)
+Q21 - MSLA 3D printing time calculation (Manufacturing)
+Q22 - NFT/Ethereum - find secret password on Sepolia testnet (Crypto)
+Q23 - Bitcoin Genesis block - find newspaper article (Crypto)
+Q24 - Malware packet analysis with Wireshark/PacketSafari (Networking/Security)
+Q25 - Cellular automata rules (Game of Life variant) (AI/Computational)
+
+
+ADAM (General Knowledge, Chemistry, Physics) - 7 Questions
+----------------------------------------------------------
+Q1  - CO2 cloud height calculation from Skoda Octavia emissions (Physics)
+Q3  - Production line wear calculation - Enyaq vs Kodiaq (Physics/Mechanics)
+Q6  - Pile foundation load curve calculation (Civil Engineering)
+Q7  - Reinforcement placement in concrete structures (Civil Engineering)
+Q8  - BIM logistics strategies for deconstruction (General Knowledge)
+Q9  - Thermal insulation selection for flood zone house (Building Physics)
+Q10 - TBM tunneling method - true statement (General Knowledge/Engineering)
+
+
+SUMMARY
+-------
+Robin: Q2, Q4, Q5, Q14, Q15, Q16, Q17, Q19, Q20  (9 questions)
+Filip: Q11, Q12, Q13, Q18, Q21, Q22, Q23, Q24, Q25  (9 questions)
+Adam:  Q1, Q3, Q6, Q7, Q8, Q9, Q10  (7 questions)
+
+
+NOTES
+-----
+Questions with images that need manual review:
+Q4, Q5, Q6, Q7, Q9, Q10, Q14, Q16, Q17, Q18, Q19, Q20, Q21, Q22, Q25
