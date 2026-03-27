@@ -1,0 +1,108 @@
+<!-- ?xml version='1.0' encoding='utf-8'? -->
+<!doctype html>
+<html lang="cs">
+<head>
+	<meta http-equiv="Content-Language" content="cs"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Technologická olympiáda</title>
+	<meta property="fb:page_id" content="">
+	<meta property="og:title" content="Technologická olympiáda">
+	<meta property="og:image" content="static/images/og-logo.jpg">
+	<meta property="og:image:width" content="600">
+	<meta property="og:image:height" content="315">
+	<meta property="og:description" content="">
+	<meta property="og:site_name" content="Technologická olympiáda">
+	<meta property="og:type" content="website"><!-- ENOL WEB STYLE -->
+	
+	<base href="https://teol.cz/" />
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap&subset=latin-ext" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="static/css/main.css?20" media="screen"/>
+	
+	<link rel="icon" href="static/images/favicon-teol.ico" type="image/x-icon">
+	
+	<script type="text/javascript" src="static/js/jquery-1.9.1.min.js"></script>		
+	<script type="text/javascript" src="static/js/enol.js"></script>		
+</head>
+<body class="dash teol">
+	<header>
+		<div class="logo">
+			<img src="static/images/tegram_logo-transparent2.png" />
+		</div>
+		<nav class="navn">
+			<a href="https://www.technologicka-gramotnost.cz/olympiada">&lt;&lt; zpět na web</a> <span class="sep"></span> 
+			<a href="tym#team">nastavení týmu</a> <span class="sep"></span> <a href="odhlaseni">odhlásit</a>
+		</nav>
+	</header>
+	<div class="content">
+		
+		
+<section class="section-top">
+	<div class="quiz-wrap" id="qh">
+		<div class="question-body">
+			<div class="navigation top">
+				
+			<a class="nav-btn prev" style="display:none">&lt;  předchozí</a>
+			<div class="questions-wrap"><div class="active "><a href="quiz/1#qh">1</a></div><div><a href="quiz/2#qh">2</a></div><div><a href="quiz/3#qh">3</a></div><div><a href="quiz/4#qh">4</a></div><div><a href="quiz/5#qh">5</a></div><div><a href="quiz/6#qh">6</a></div><div><a href="quiz/7#qh">7</a></div><div><a href="quiz/8#qh">8</a></div><div><a href="quiz/9#qh">9</a></div><div><a href="quiz/10#qh">10</a></div><div><a href="quiz/11#qh">11</a></div><div><a href="quiz/12#qh">12</a></div><div><a href="quiz/13#qh">13</a></div><div><a href="quiz/14#qh">14</a></div><div><a href="quiz/15#qh">15</a></div><div><a href="quiz/16#qh">16</a></div><div><a href="quiz/17#qh">17</a></div><div><a href="quiz/18#qh">18</a></div><div><a href="quiz/19#qh">19</a></div><div><a href="quiz/20#qh">20</a></div><div><a href="quiz/21#qh">21</a></div><div><a href="quiz/22#qh">22</a></div><div><a href="quiz/23#qh">23</a></div><div><a href="quiz/24#qh">24</a></div><div><a href="quiz/25#qh">25</a></div>
+		
+											</div>
+			<a class="nav-btn next" href="quiz/2#qh">další  &gt;</a>		
+		
+			</div>
+			<form action="" method="POST" class="question-wrap">
+
+				<input type="hidden" name="q" value="1" />
+				<div class="question">
+<p>V roce 2024 bylo celosvětově prodáno přibližně 926 600 vozů Škoda Auto. Z&nbsp;toho 215 700 vozů Škoda Octavia, což představuje meziroční nárůst o&nbsp;12,4 %. Mezi další velmi prodávané modely patřily například Škoda Kamiq (126 000 vozů), Fabia (117 100 vozů), Kodiaq (114 500 vozů) s&nbsp;meziročním nárůstem o&nbsp;8,1 % nebo Karoq (109 400 vozů). Zároveň je patrné, že roste význam alternativních pohonů. Elektromobil Škoda Enyaq dosáhl v&nbsp;roce 2024 prodeje 79 500 kusů, i&nbsp;když oproti předchozímu roku zaznamenal mírný pokles. Ostatní modely, jako Superb, Scala, Kushaq nebo Slavia, tvořily menší, ale stále důležitou část celkových prodejů.</p>
+<p>Elektromobily mají oproti vozům se spalovacím motorem několik výhod. Díky jednodušší konstrukci jsou často nižší nároky na jejich údržbu, protože nevyžadují výměny oleje či filtrů a&nbsp;nedisponují složitými výfukovými systémy, jsou tišší a&nbsp;dokážou část energie při brzdění znovu ukládat díky rekuperaci, čímž snižují celkovou spotřebu energie a&nbsp;opotřebení brzd.</p>
+<p>V hustě obydlených oblastech, jako je například Praha, má doprava výrazný vliv na kvalitu ovzduší.</p>
+<p>Představ si, že by se všechny emise CO₂ vyprodukované vozy nejprodávanějšího modelu Škoda v&nbsp;roce 2024 nahromadily nad Prahou do jednoho jediného pomyslného mraku. Jak vysoký by tento pomyslný mrak, zaokrouhlený na celé centimetry, byl? Počítejte s&nbsp;průměrnými emisemi modelu Octavia Sportline s&nbsp;motorizací 1,5 TSI/110 kW, ročním nájezdem 13 000 kilometrů a&nbsp;teplotou 20 °C.</p>
+</div>
+
+<div class="answers">
+
+    <div class="option-wrap"><input id="option_1" class="radio-answer" name="answer" type="radio" value="1"/><label for="option_1">34 cm</label></div>
+    <div class="option-wrap"><input id="option_2" class="radio-answer" name="answer" type="radio" value="2"/><label for="option_2">35 cm</label></div>
+    <div class="option-wrap"><input id="option_3" class="radio-answer" name="answer" type="radio" value="3"/><label for="option_3">37 cm</label></div>
+    <div class="option-wrap"><input id="option_4" class="radio-answer" name="answer" type="radio" value="4"/><label for="option_4">39 cm</label></div>
+    <div class="option-wrap"><input id="option_5" class="radio-answer" name="answer" type="radio" value="5"/><label for="option_5">40 cm</label></div>
+</div>
+				
+				<button class="quiz-btn save" id="save-answer">Uložit odpověď</button>
+				
+				<div class="clear"></div>
+			<div class="navigation bottom">
+				
+			<a class="nav-btn prev" style="display:none">&lt;  předchozí</a>
+			<div class="questions-wrap"><div class="active "><a href="quiz/1#qh">1</a></div><div><a href="quiz/2#qh">2</a></div><div><a href="quiz/3#qh">3</a></div><div><a href="quiz/4#qh">4</a></div><div><a href="quiz/5#qh">5</a></div><div><a href="quiz/6#qh">6</a></div><div><a href="quiz/7#qh">7</a></div><div><a href="quiz/8#qh">8</a></div><div><a href="quiz/9#qh">9</a></div><div><a href="quiz/10#qh">10</a></div><div><a href="quiz/11#qh">11</a></div><div><a href="quiz/12#qh">12</a></div><div><a href="quiz/13#qh">13</a></div><div><a href="quiz/14#qh">14</a></div><div><a href="quiz/15#qh">15</a></div><div><a href="quiz/16#qh">16</a></div><div><a href="quiz/17#qh">17</a></div><div><a href="quiz/18#qh">18</a></div><div><a href="quiz/19#qh">19</a></div><div><a href="quiz/20#qh">20</a></div><div><a href="quiz/21#qh">21</a></div><div><a href="quiz/22#qh">22</a></div><div><a href="quiz/23#qh">23</a></div><div><a href="quiz/24#qh">24</a></div><div><a href="quiz/25#qh">25</a></div>
+		
+											</div>
+			<a class="nav-btn next" href="quiz/2#qh">další  &gt;</a>		
+		
+			</div>
+			
+			
+				<button class="quiz-btn terminate" name="finish" onclick="return(confirm('Opravdu chcete ukončit test?'));">Ukončit test</button>
+			</form>
+		</div>
+	</div>
+</section>
+		
+		<script type="text/javascript">setTimeout(function(){window.location.reload();},10474000)</script>
+	</div>    
+	<footer>
+		<p>©2021 by Technologická gramotnost s.r.o.</p>
+	</footer>
+	<script src="static/js/app.js?v=3.1.2"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="static/js/parallax.min.js?v=3.1.2"></script>
+<script src="static/js/main.min.js?v=3.1.4"></script>
+	<script src="static/js/main.enol.js?v=3.1.2"></script>
+
+</body>
+</html>

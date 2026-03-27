@@ -32,9 +32,44 @@
 </header>
 <div class="content">
 <section class="section-top">
-<div class="row">
-<div class="col c"><h2>Upozornění</h2><p>Tento tým již test vyplňuje na jiném zařízení. Pokud chcete ukončit relaci a pokračovat na tomto zařízení, klikněte <a href="quiz?resethash=1">zde</a>.</p></div></div>
+<div class="quiz-wrap" id="qh">
+<div class="question-body">
+<div class="navigation top">
+<a class="nav-btn prev" href="quiz/10#qh">&lt;  předchozí</a>
+<div class="questions-wrap"><div><a href="quiz/1#qh">1</a></div><div><a href="quiz/2#qh">2</a></div><div><a href="quiz/3#qh">3</a></div><div><a href="quiz/4#qh">4</a></div><div><a href="quiz/5#qh">5</a></div><div><a href="quiz/6#qh">6</a></div><div><a href="quiz/7#qh">7</a></div><div><a href="quiz/8#qh">8</a></div><div><a href="quiz/9#qh">9</a></div><div><a href="quiz/10#qh">10</a></div><div class="active"><a href="quiz/11#qh">11</a></div><div><a href="quiz/12#qh">12</a></div><div><a href="quiz/13#qh">13</a></div><div><a href="quiz/14#qh">14</a></div><div><a href="quiz/15#qh">15</a></div><div><a href="quiz/16#qh">16</a></div><div><a href="quiz/17#qh">17</a></div><div><a href="quiz/18#qh">18</a></div><div><a href="quiz/19#qh">19</a></div><div><a href="quiz/20#qh">20</a></div><div><a href="quiz/21#qh">21</a></div><div><a href="quiz/22#qh">22</a></div><div><a href="quiz/23#qh">23</a></div><div><a href="quiz/24#qh">24</a></div><div><a href="quiz/25#qh">25</a></div>
+</div>
+<a class="nav-btn next" href="quiz/12#qh">další  &gt;</a>
+</div>
+<form action="" class="question-wrap" method="POST">
+<input name="q" type="hidden" value="11"/>
+<div class="question">
+<p>Machine learning (ML) představuje klíčový pilíř moderní umělé inteligence. Jeho podstata nespočívá v psaní pevných instrukcí pro každý jednotlivý úkol, ale ve vývoji algoritmů, které se dokáží učit přímo z dat. Dále se zaměříme na část ML, kterou nazýváme učení bez učitele (unsupervised learning). Tyto algoritmy pracují se soubory dat, které neobsahují žádné štítky ani předem definované „správné odpovědi“. Nejsou tak omezeny lidským očekáváním ani dosavadními znalostmi, což umožňuje objektivní analýzu jakýchkoliv dat. Slouží tak například pro objevování zcela nových poznatků a souvislostí.</p>
+<p>Současné výpočetní kapacity nám umožňují efektivně zpracovávat masivní objemy dat. Typickým příkladem je analýza genetické informace, kterou lze dnes díky moderním metodám sekvenování získat velmi levně a rychle. V moderní biologii se k určování příbuznosti druhů i k predikci zdravotních rizik využívá analýza SNP (Single Nucleotide Polymorphism). Jde o specifická místa v DNA, kde dochází k záměně jednoho nukleotidu oproti referenční variantě. Zatímco některé z těchto záměn mohou vést k závažným patologickým komplikacím, jiné představují zcela neškodné genetické variace.</p>
+<p>Vzhledem k tomu, že genetická informace obsahuje miliony takových míst, je velmi složité pracovat s daty v jejich surové podobě. Proto se využívají metody redukce dimenzionality, jako je PCA (Principal Component Analysis). Hlavním cílem PCA je transformovat původní data do nového souřadného systému. Tento nový souřadný systém dokáže v minimálním počtu dimenzí zachytit maximální možný rozptyl dat. Je pak na volbě analytika, kolik souřadných os (dimenzí) si ve finálním modelu ponechá a jakou míru nevysvětleného rozptylu je ochoten akceptovat výměnou za přehlednost a interpretovatelnost výsledků.</p>
+<p>V této úloze budeme pracovat s 3D bodovým grafem (graf zde: <a href="https://www.technologicka-gramotnost.cz/otazka-11" target="_blank">https://www.technologicka-gramotnost.cz/otazka-11</a>), který interpretuje výsledky PCA analýzy genetických dat. Vstupní datová sada obsahuje profily devíti druhů živočichů, u nichž bylo identifikováno 500 významných SNP pozic. Původní surová data se tedy nacházela v 500rozměrném prostoru, kde každou osu definoval jeden konkrétní SNP. Abychom tato komplexní data mohli vizualizovat, využili jsme metodu PCA k transformaci souřadnicové soustavy. Pro zobrazení ve 3D prostoru jsme vybrali tři klíčové dimenze (PC1, PC2 a PC3), které zachycují největší rozptyl. U všech os je označeno, kolik procent původního rozptylu vysvětlují.</p>
+<p>Která možnost obsahuje nepravdivé tvrzení?</p>
+</div>
+<div class="answers">
+<div class="option-wrap"><input class="radio-answer" id="option_1" name="answer" style="display: none;" type="radio" value="1"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_1">Souřadnice medvěda černého bychom v grafu očekávali na jiném místě. Kdybychom analyzovali SNP u geparda štíhlého, tak bychom očekávali v grafu kladné hodnoty na všech osách.</label></div>
+<div class="option-wrap"><input class="radio-answer" id="option_2" name="answer" style="display: none;" type="radio" value="2"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_2">Tygr sumaterský je podle PCA nejvíce příbuzný ostatním živočichům z čeledi Felidae, avšak podle osy PC2 ho nedokážeme dobře rozlišit od psovitých šelem.</label></div>
+<div class="option-wrap"><input class="radio-answer" id="option_3" name="answer" style="display: none;" type="radio" value="3"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_3">Osy PC1, PC2 a PC3 dohromady vysvětlují více než tři čtvrtiny rozptylu dat, přičemž platí, že čím dále jsou od sebe dva body v grafu, tím méně podobné jsou jejich 500rozměrné genetické profily.</label></div>
+<div class="option-wrap"><input class="radio-answer" id="option_4" name="answer" style="display: none;" type="radio" value="4"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_4">PCA je hojně využívanou metodou pro snížení dimenze analyzovaných dat. Při jeho výpočtu ale nemůžeme využít znalost biologické taxonomie pro lepší rozdělení do shluků.</label></div>
+<div class="option-wrap"><input class="radio-answer" id="option_5" name="answer" style="display: none;" type="radio" value="5"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_5">Osa PC1 vysvětluje nejvíce rozptylu dat ze všech os a pro základní rozlišení čeledí nám stačí sledovat hodnoty pouze hodnoty na ní. Ani osa PC2, ani osa PC3 nám samostatně nestačí k rozlišení čeledí.</label></div>
+</div>
+<button class="quiz-btn save" id="save-answer">Uložit odpověď</button>
+<div class="clear"></div>
+<div class="navigation bottom">
+<a class="nav-btn prev" href="quiz/10#qh">&lt;  předchozí</a>
+<div class="questions-wrap"><div><a href="quiz/1#qh">1</a></div><div><a href="quiz/2#qh">2</a></div><div><a href="quiz/3#qh">3</a></div><div><a href="quiz/4#qh">4</a></div><div><a href="quiz/5#qh">5</a></div><div><a href="quiz/6#qh">6</a></div><div><a href="quiz/7#qh">7</a></div><div><a href="quiz/8#qh">8</a></div><div><a href="quiz/9#qh">9</a></div><div><a href="quiz/10#qh">10</a></div><div class="active"><a href="quiz/11#qh">11</a></div><div><a href="quiz/12#qh">12</a></div><div><a href="quiz/13#qh">13</a></div><div><a href="quiz/14#qh">14</a></div><div><a href="quiz/15#qh">15</a></div><div><a href="quiz/16#qh">16</a></div><div><a href="quiz/17#qh">17</a></div><div><a href="quiz/18#qh">18</a></div><div><a href="quiz/19#qh">19</a></div><div><a href="quiz/20#qh">20</a></div><div><a href="quiz/21#qh">21</a></div><div><a href="quiz/22#qh">22</a></div><div><a href="quiz/23#qh">23</a></div><div><a href="quiz/24#qh">24</a></div><div><a href="quiz/25#qh">25</a></div>
+</div>
+<a class="nav-btn next" href="quiz/12#qh">další  &gt;</a>
+</div>
+<button class="quiz-btn terminate" name="finish" onclick="return(confirm('Opravdu chcete ukončit test?'));">Ukončit test</button>
+</form>
+</div>
+</div>
 </section>
+<script type="text/javascript">setTimeout(function(){window.location.reload();},10468000)</script>
 </div>
 <footer>
 <p>©2021 by Technologická gramotnost s.r.o.</p>

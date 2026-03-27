@@ -32,9 +32,58 @@
 </header>
 <div class="content">
 <section class="section-top">
-<div class="row">
-<div class="col c"><h2>Upozornění</h2><p>Tento tým již test vyplňuje na jiném zařízení. Pokud chcete ukončit relaci a pokračovat na tomto zařízení, klikněte <a href="quiz?resethash=1">zde</a>.</p></div></div>
+<div class="quiz-wrap" id="qh">
+<div class="question-body">
+<div class="navigation top">
+<a class="nav-btn prev" href="quiz/18#qh">&lt;  předchozí</a>
+<div class="questions-wrap"><div><a href="quiz/1#qh">1</a></div><div><a href="quiz/2#qh">2</a></div><div><a href="quiz/3#qh">3</a></div><div><a href="quiz/4#qh">4</a></div><div><a href="quiz/5#qh">5</a></div><div><a href="quiz/6#qh">6</a></div><div><a href="quiz/7#qh">7</a></div><div><a href="quiz/8#qh">8</a></div><div><a href="quiz/9#qh">9</a></div><div><a href="quiz/10#qh">10</a></div><div><a href="quiz/11#qh">11</a></div><div><a href="quiz/12#qh">12</a></div><div><a href="quiz/13#qh">13</a></div><div><a href="quiz/14#qh">14</a></div><div><a href="quiz/15#qh">15</a></div><div><a href="quiz/16#qh">16</a></div><div><a href="quiz/17#qh">17</a></div><div><a href="quiz/18#qh">18</a></div><div class="active"><a href="quiz/19#qh">19</a></div><div><a href="quiz/20#qh">20</a></div><div><a href="quiz/21#qh">21</a></div><div><a href="quiz/22#qh">22</a></div><div><a href="quiz/23#qh">23</a></div><div><a href="quiz/24#qh">24</a></div><div><a href="quiz/25#qh">25</a></div>
+</div>
+<a class="nav-btn next" href="quiz/20#qh">další  &gt;</a>
+</div>
+<form action="" class="question-wrap" method="POST">
+<input name="q" type="hidden" value="19"/>
+<div class="question">
+<p>Zatímco první generace průmyslových robotů byla pevně ukotvena k podlaze a vykonávala opakující se pohyby, moderní logistika vyžaduje flexibilitu. Do popředí se tak dostávají autonomní mobilní roboty. Na rozdíl od starších systémů, které pouze sledovaly magnetickou pásku na podlaze, se AMR musí v prostoru orientovat samostatně. Využívají k tomu technologii SLAM (Simultaneous Localization and Mapping) a pokročilé algoritmy pro hledání cesty.</p>
+<p>Základním kamenem navigace je schopnost robota najít nejefektivnější cestu z bodu A do bodu B v prostředí plném překážek. V robotice se pro tento účel nejčastěji využívá algoritmus A*, který si vybírá další krok na základě „ceny“ pohybu a odhadu budoucí ceny, takzvané heuristiky. Pro každé políčko, na které může robot vstoupit, vypočítá hodnotu <img alt="" src="images/q19_image46.png" style="position: relative;top: 10px;"/> podle vzorce:</p>
+<p><img alt="" src="images/q19_image47.png" style="position: relative;top: 10px;"/></p>
+<p><img alt="" src="images/q19_image48.png" style="position: relative;top: 10px;"/> … reálná cena nutná k dostání se na aktuální místo</p>
+<p><img alt="" src="images/q19_image49.png" style="position: relative;top: 10px;"/> … heuristický odhad, předpokládaná vzdálenost k cíli</p>
+<p>Pro správnou funkčnost (optimálnost) algoritmu A* musí být heuristika splnitelná, tedy nesmí nikdy přecenit cenu k cíli (není možné, aby se robot do cíle dostal s nižší cenou než s tou, kterou odhadne daná heuristika).</p>
+<p>V naší simulaci použijeme skladního robota, který převáží zboží od výrobních linek do skladu výrobků na skladní police. Robot může provádět akce vlevo, vpravo, nahoru, dolů a jakýkoli z diagonálních pohybů, může také odložit náklad do police skladu (každý výrobek patří do své police) a sebrat výrobek z výrobní stanice. Sbírání a pokládání výrobků probíhá provedením příslušné akce na pozici výrobní stanice nebo police. Všechny akce mají stejnou cenu: 1. Robot začíná na pozici S, naloží právě jeden kus každého výrobku na pozicích výrobních stanic <img alt="" src="images/q19_image50.png" style="position: relative;top: 10px;"/> a převáží je na police na pozicích <img alt="" src="images/quiz-teol26/image51.png" style="position: relative;top: 10px;"/> nacházejících se ve skladu. Kapacita robota není pro náš případ omezena (uveze všech 6 výrobků). Mapa výrobního závodu vypadá následovně:</p>
+<p><img alt="" src="images/q19_image75.png" title=""/></p>
+<p>Které z následujících heuristik nemůžeme použít pro dosažení optimality algoritmu A* v našem simulovaném výrobním závodu (pro heuristiku počítanou pro počáteční pozici S a počet výrobků N)?</p>
+<ol start="1">
+<li><img alt="" src="images/q19_image52.png" style="position: relative;top: 10px;"/></li>
+<li><img alt="" src="images/quiz-teol26/image53.png" style="position: relative;top: 10px;"/></li>
+<li><img alt="" src="images/quiz-teol26/image54.png" style="position: relative;top: 10px;"/></li>
+<li><img alt="" src="images/quiz-teol26/image55.png" style="position: relative;top: 10px;"/></li>
+<li><img alt="" src="images/quiz-teol26/image56.png" style="position: relative;top: 10px;"/>1</li>
+<li><img alt="" src="images/quiz-teol26/image57.png" style="position: relative;top: 10px;"/>1</li>
+</ol>
+<p>Odpověď dostanete pomocí následujícího vzorce, kde <img alt="" src="images/q19_image58.png" style="position: relative;top: 10px;"/> je součet indexů nepřípustných heuristik ze seznamu výše:</p>
+<p><img alt="" src="images/q19_image59.png" style="position: relative;top: 10px;"/></p>
+</div>
+<div class="answers">
+<div class="option-wrap"><input class="radio-answer" id="option_1" name="answer" style="display: none;" type="radio" value="1"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_1">0</label></div>
+<div class="option-wrap"><input class="radio-answer" id="option_2" name="answer" style="display: none;" type="radio" value="2"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_2">1</label></div>
+<div class="option-wrap"><input class="radio-answer" id="option_3" name="answer" style="display: none;" type="radio" value="3"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_3">2</label></div>
+<div class="option-wrap"><input class="radio-answer" id="option_4" name="answer" style="display: none;" type="radio" value="4"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_4">3</label></div>
+<div class="option-wrap"><input class="radio-answer" id="option_5" name="answer" style="display: none;" type="radio" value="5"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_5">4</label></div>
+</div>
+<button class="quiz-btn save" id="save-answer">Uložit odpověď</button>
+<div class="clear"></div>
+<div class="navigation bottom">
+<a class="nav-btn prev" href="quiz/18#qh">&lt;  předchozí</a>
+<div class="questions-wrap"><div><a href="quiz/1#qh">1</a></div><div><a href="quiz/2#qh">2</a></div><div><a href="quiz/3#qh">3</a></div><div><a href="quiz/4#qh">4</a></div><div><a href="quiz/5#qh">5</a></div><div><a href="quiz/6#qh">6</a></div><div><a href="quiz/7#qh">7</a></div><div><a href="quiz/8#qh">8</a></div><div><a href="quiz/9#qh">9</a></div><div><a href="quiz/10#qh">10</a></div><div><a href="quiz/11#qh">11</a></div><div><a href="quiz/12#qh">12</a></div><div><a href="quiz/13#qh">13</a></div><div><a href="quiz/14#qh">14</a></div><div><a href="quiz/15#qh">15</a></div><div><a href="quiz/16#qh">16</a></div><div><a href="quiz/17#qh">17</a></div><div><a href="quiz/18#qh">18</a></div><div class="active"><a href="quiz/19#qh">19</a></div><div><a href="quiz/20#qh">20</a></div><div><a href="quiz/21#qh">21</a></div><div><a href="quiz/22#qh">22</a></div><div><a href="quiz/23#qh">23</a></div><div><a href="quiz/24#qh">24</a></div><div><a href="quiz/25#qh">25</a></div>
+</div>
+<a class="nav-btn next" href="quiz/20#qh">další  &gt;</a>
+</div>
+<button class="quiz-btn terminate" name="finish" onclick="return(confirm('Opravdu chcete ukončit test?'));">Ukončit test</button>
+</form>
+</div>
+</div>
 </section>
+<script type="text/javascript">setTimeout(function(){window.location.reload();},10461000)</script>
 </div>
 <footer>
 <p>©2021 by Technologická gramotnost s.r.o.</p>

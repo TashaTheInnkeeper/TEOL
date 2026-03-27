@@ -32,9 +32,45 @@
 </header>
 <div class="content">
 <section class="section-top">
-<div class="row">
-<div class="col c"><h2>Upozornění</h2><p>Tento tým již test vyplňuje na jiném zařízení. Pokud chcete ukončit relaci a pokračovat na tomto zařízení, klikněte <a href="quiz?resethash=1">zde</a>.</p></div></div>
+<div class="quiz-wrap" id="qh">
+<div class="question-body">
+<div class="navigation top">
+<a class="nav-btn prev" href="quiz/21#qh">&lt;  předchozí</a>
+<div class="questions-wrap"><div><a href="quiz/1#qh">1</a></div><div><a href="quiz/2#qh">2</a></div><div><a href="quiz/3#qh">3</a></div><div><a href="quiz/4#qh">4</a></div><div><a href="quiz/5#qh">5</a></div><div><a href="quiz/6#qh">6</a></div><div><a href="quiz/7#qh">7</a></div><div><a href="quiz/8#qh">8</a></div><div><a href="quiz/9#qh">9</a></div><div><a href="quiz/10#qh">10</a></div><div><a href="quiz/11#qh">11</a></div><div><a href="quiz/12#qh">12</a></div><div><a href="quiz/13#qh">13</a></div><div><a href="quiz/14#qh">14</a></div><div><a href="quiz/15#qh">15</a></div><div><a href="quiz/16#qh">16</a></div><div><a href="quiz/17#qh">17</a></div><div><a href="quiz/18#qh">18</a></div><div><a href="quiz/19#qh">19</a></div><div><a href="quiz/20#qh">20</a></div><div><a href="quiz/21#qh">21</a></div><div class="active"><a href="quiz/22#qh">22</a></div><div><a href="quiz/23#qh">23</a></div><div><a href="quiz/24#qh">24</a></div><div><a href="quiz/25#qh">25</a></div>
+</div>
+<a class="nav-btn next" href="quiz/23#qh">další  &gt;</a>
+</div>
+<form action="" class="question-wrap" method="POST">
+<input name="q" type="hidden" value="22"/>
+<div class="question">
+<p>Non-Fungible Token (NFT) je kryptografický token na blockchainu, který reprezentuje vlastnictví unikátních položek jako je digitální umění, sběratelské předměty, nemovitosti a mnoho dalších. Jedním z prvních velmi úspěšných NFT projektů byla populární hra CryptoKitties (<a href="https://www.cryptokitties.co/" target="_blank">https://www.cryptokitties.co/</a>), ve které si uživatelé mohli kupovat digitální kočky reprezentované jako NFT tokeny. Snad nejúspěšnějším NFT projektem se stal Bored Ape Yacht Club (<a href="https://boredapeyachtclub.com/" target="_blank">https://boredapeyachtclub.com/</a>), kde si sběratelé mohou zakoupit tokeny reprezentující obrázky opic. Je důležité poznamenat, že samotný obrázek často není uložen přímo na blockchainu; místo toho jde pouze o odkaz na server mimo blockchain, kde jsou uložena metadata, přičemž tento odkaz je součástí tokenového smart kontraktu. Pro tuto otázku jsme si pro vás připravili jedinečnou NFT kolekci FEL studentů (FELSC). Každý token reprezentuje studenta s unikátní kombinací vlastností: studijní program, spánkový status a studijní pomůcka. Zde vidíte ukázku několika kousků z této kolekce:</p>
+<p><img alt="" src="images/q22_image74.png" title=""/></p>
+<p>Náš vývojář (s adresou 0x841bcED65cF26570d89A3fBFa65D0aCb9593269d) nasadil na testovací síti Sepolia (<a href="https://sepolia.etherscan.io/" target="_blank">https://sepolia.etherscan.io/</a>) chytrý kontrakt pro NFT sbírku FEL studentů (s adresou 0x6456479d3Df254a21a5726173A581fce0B26842d). Aby omezil, kdo může vytvářet (mintovat) nové NFT tokeny, nastavil do kontraktu tajné heslo. Bohužel udělal zásadní chybu. Heslo nastavil běžnou transakcí, čímž ho nevědomky zveřejnil celému světu. Vaším úkolem je zahrát si na hackera, najít toto heslo a tím získat možnost mintovat své NFT studenty FEL v hodnotě milionů dolarů.</p>
+<p>Adresa NFT chytrého kontraktu na Sepolia Ether Scanu je:</p>
+<p><a href="https://sepolia.etherscan.io/address/0x6456479d3Df254a21a5726173A581fce0B26842d" target="_blank">https://sepolia.etherscan.io/address/0x6456479d3Df254a21a5726173A581fce0B26842d</a></p>
+<p>Jaké je tajné heslo, které umožňuje mintovat nové NFT tokeny z kolekce FEL studentů?</p>
+</div>
+<div class="answers">
+<div class="option-wrap"><input class="radio-answer" id="option_1" name="answer" style="display: none;" type="radio" value="1"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_1">TEOL_NFT</label></div>
+<div class="option-wrap"><input class="radio-answer" id="option_2" name="answer" style="display: none;" type="radio" value="2"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_2">TEOL2026</label></div>
+<div class="option-wrap"><input class="radio-answer" id="option_3" name="answer" style="display: none;" type="radio" value="3"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_3">!TEOL2026!</label></div>
+<div class="option-wrap"><input class="radio-answer" id="option_4" name="answer" style="display: none;" type="radio" value="4"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_4">T.E.O.L.2026</label></div>
+<div class="option-wrap"><input class="radio-answer" id="option_5" name="answer" style="display: none;" type="radio" value="5"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_5">Technologicka2026</label></div>
+</div>
+<button class="quiz-btn save" id="save-answer">Uložit odpověď</button>
+<div class="clear"></div>
+<div class="navigation bottom">
+<a class="nav-btn prev" href="quiz/21#qh">&lt;  předchozí</a>
+<div class="questions-wrap"><div><a href="quiz/1#qh">1</a></div><div><a href="quiz/2#qh">2</a></div><div><a href="quiz/3#qh">3</a></div><div><a href="quiz/4#qh">4</a></div><div><a href="quiz/5#qh">5</a></div><div><a href="quiz/6#qh">6</a></div><div><a href="quiz/7#qh">7</a></div><div><a href="quiz/8#qh">8</a></div><div><a href="quiz/9#qh">9</a></div><div><a href="quiz/10#qh">10</a></div><div><a href="quiz/11#qh">11</a></div><div><a href="quiz/12#qh">12</a></div><div><a href="quiz/13#qh">13</a></div><div><a href="quiz/14#qh">14</a></div><div><a href="quiz/15#qh">15</a></div><div><a href="quiz/16#qh">16</a></div><div><a href="quiz/17#qh">17</a></div><div><a href="quiz/18#qh">18</a></div><div><a href="quiz/19#qh">19</a></div><div><a href="quiz/20#qh">20</a></div><div><a href="quiz/21#qh">21</a></div><div class="active"><a href="quiz/22#qh">22</a></div><div><a href="quiz/23#qh">23</a></div><div><a href="quiz/24#qh">24</a></div><div><a href="quiz/25#qh">25</a></div>
+</div>
+<a class="nav-btn next" href="quiz/23#qh">další  &gt;</a>
+</div>
+<button class="quiz-btn terminate" name="finish" onclick="return(confirm('Opravdu chcete ukončit test?'));">Ukončit test</button>
+</form>
+</div>
+</div>
 </section>
+<script type="text/javascript">setTimeout(function(){window.location.reload();},10457000)</script>
 </div>
 <footer>
 <p>©2021 by Technologická gramotnost s.r.o.</p>

@@ -7,198 +7,505 @@ Total questions: 25
 QUESTION 1
 ======================================================================
 
-
+V roce 2024 bylo celosvětově prodáno přibližně 926 600 vozů Škoda Auto. Z toho 215 700 vozů Škoda Octavia, což představuje meziroční nárůst o 12,4 %. Mezi další velmi prodávané modely patřily například Škoda Kamiq (126 000 vozů), Fabia (117 100 vozů), Kodiaq (114 500 vozů) s meziročním nárůstem o 8,1 % nebo Karoq (109 400 vozů). Zároveň je patrné, že roste význam alternativních pohonů. Elektromobil Škoda Enyaq dosáhl v roce 2024 prodeje 79 500 kusů, i když oproti předchozímu roku zaznamenal mírný pokles. Ostatní modely, jako Superb, Scala, Kushaq nebo Slavia, tvořily menší, ale stále důležitou část celkových prodejů.
+Elektromobily mají oproti vozům se spalovacím motorem několik výhod. Díky jednodušší konstrukci jsou často nižší nároky na jejich údržbu, protože nevyžadují výměny oleje či filtrů a nedisponují složitými výfukovými systémy, jsou tišší a dokážou část energie při brzdění znovu ukládat díky rekuperaci, čímž snižují celkovou spotřebu energie a opotřebení brzd.
+V hustě obydlených oblastech, jako je například Praha, má doprava výrazný vliv na kvalitu ovzduší.
+Představ si, že by se všechny emise CO₂ vyprodukované vozy nejprodávanějšího modelu Škoda v roce 2024 nahromadily nad Prahou do jednoho jediného pomyslného mraku. Jak vysoký by tento pomyslný mrak, zaokrouhlený na celé centimetry, byl? Počítejte s průměrnými emisemi modelu Octavia Sportline s motorizací 1,5 TSI/110 kW, ročním nájezdem 13 000 kilometrů a teplotou 20 °C.
 
 Options:
+  A) 34 cm
+  B) 35 cm
+  C) 37 cm
+  D) 39 cm
+  E) 40 cm
 
 ======================================================================
 QUESTION 2
 ======================================================================
 
-
+Zatímco jsme si v předchozí otázce ukázali, jak výrazně může provoz vozidel se spalovacím motorem ovlivňovat množství emisí CO 2 a kvalitu ovzduší, elektromobil je v tomto ohledu „zelenější“, protože při jízdě žádné emise přímo nevypouští. Jeho ekologická stopa se však nepřesouvá do výfuku, ale především do fáze výroby – zejména do výroby baterie. Právě baterie je srdcem elektromobilu a zároveň technologicky i materiálově nejnáročnější částí celého vozu, což nás přirozeně přivádí k surovinám, bez kterých by dnešní elektromobilita nebyla možná.
+Jednou z klíčových surovin pro výrobu baterií v elektromobilech je lithium, které se v lithium-iontových akumulátorech přímo podílí na ukládání a přenosu elektrické energie. Lithium se v zemské kůře vytváří během dlouhých geologických procesů spojených s krystalizací magmatických hornin a je vázáno v minerálech, jako je například spodumen. Jeho vznik a akumulace v horninách probíhaly v řádu milionů let, zatímco jeho využití v moderních technologiích je otázkou posledních desetiletí.
+Největším světovým producentem lithia z tvrdých hornin je Greenbushes Mine nacházející se v Západní Austrálii. Tento důl byl otevřen již na konci 19. století a dnes představuje klíčový zdroj lithia pro globální bateriový průmysl. V dole se lithium získává těžbou horniny obsahující spodumen, který je následně mechanicky drcen, tříděn a upravován na tzv. lithium mineral concentrate. Tento koncentrát není konečným produktem – po opuštění dolu putuje k dalšímu chemickému zpracování, kde se z něj vyrábějí sloučeniny vhodné pro výrobu baterií. Než se lithium objeví na výrobní lince elektromobilu, absolvuje tedy dlouhý a energeticky náročný výrobní řetězec.
+V rámci této otázky se zaměříme výhradně na energii potřebnou na samotnou těžbu a mechanickou úpravu rudy na lithium mineral concentrate, nikoli na následné chemické rafinační procesy. Na získání jedné tuny lithium mineral concentrate je potřeba 1,613 GJ energie. V roce 2024 bylo v dole Greenbushes vyprodukováno 1 410 454 tun tohoto koncentrátu.
+Spočítejte, jaký podíl (v procentech) tvořila energie spotřebovaná na těžbu a zpracování rudy na lithium mineral concentrate na celkové roční výrobě elektrické energie v Západní Austrálii v roce 2024. Použijte app.electricitymaps.com .
 
 Options:
+  A) 1,4 %
+  B) 2 %
+  C) 2,5 %
+  D) 3 %
+  E) 3,6 %
 
 ======================================================================
 QUESTION 3
 ======================================================================
 
-
+V předchozí otázce jsme se zaměřili na energetickou náročnost těžby a zpracování lithia, tedy na úplný začátek výrobního řetězce baterií. Tímto procesem celý příběh elektromobilu zdaleka nekončí. Jakmile je baterie vyrobena, stává se integrální součástí samotného vozidla a výrazně ovlivňuje jeho konstrukční vlastnosti.
+Jedním z nejvýraznějších důsledků lithium-iontové baterie je výrazně vyšší hmotnost elektromobilu ve srovnání s obdobnými vozy se spalovacím motorem. Tato zvýšená hmotnost se však neprojevuje pouze během provozu vozidla, ale už ve fázi výroby, kde může vést k vyššímu mechanickému namáhání a rychlejšímu opotřebení výrobních pásů a infrastruktury výrobních závodů.
+Předpokládejme, že míra opotřebení výrobního pásu je přímo úměrná hmotnosti vyráběného vozidla a počtu vyrobených kusů a že Škoda Enyaq a Škoda Kodiaq se vyrábějí na samostatných výrobních linkách.
+Dále uvažujme, že nárůst zájmu o model Škoda Kodiaq zůstal v roce 2025 meziročně stejný jako v roce 2024 oproti roku 2023.
+O kolik procent by musela meziročně vzrůst obliba (prodeje) modelu Škoda Enyaq, aby v roce 2025 došlo ke stejnému opotřebení výrobní linky Enyaqu jako výrobní linky Kodiaqu? Uvažujme, že počet vyrobených vozů je shodný s počtem prodaných vozů. Pro výpočet použijte pohotovostní hmotnost vozidla Škoda Enyaq Sportline 85x a Škoda Kodiaq Sportline 2.0 TDI 110 kW dle oficiálního konfigurátoru.
 
 Options:
+  A) cca 15 %
+  B) cca 18 %
+  C) cca 21 %
+  D) cca 24 %
+  E) cca 27 %
 
 ======================================================================
 QUESTION 4
 ======================================================================
 
+Vysoká hmotnost baterie v elektromobilu neznamená jen větší nároky na výrobní infrastrukturu, ale přináší s sebou i další důležitou otázku: jak bezpečně uchovat a řídit tak velké množství energie přímo ve vozidle. Lithium-iontová baterie totiž neslouží jen jako pasivní zásobník energie, ale je aktivní součástí, jejíž stav se neustále během jízdy i nabíjení mění.
+Aby baterie pracovala spolehlivě a bezpečně, je elektromobil vybaven tzv. Battery Management Systemem (BMS). Jde o elektronický řídicí systém, který funguje jako „dozor“ nad baterií – průběžně sleduje napětí jednotlivých článků, proudy, teplotu i stav nabití a zajišťuje, že žádná část akumulátoru nepřekročí bezpečné provozní limity. Bez BMS by hrozilo přehřívání, zrychlené stárnutí baterie nebo v krajním případě její vážné poškození.
+Nedílnou součástí bezpečnosti baterie je také účinné chlazení. Při vysokém zatížení nebo rychlém nabíjení se baterie zahřívá a bez řízeného odvodu tepla by se mohla dostat mimo optimální teplotní rozsah. Moderní elektromobily proto využívají kapalinové chladicí systémy, které udržují baterii v ideálních podmínkách. Právě spolupráce BMS a chlazení je klíčová pro bezpečný provoz elektromobilu, dlouhou životnost baterie i ochranu posádky vozidla.
+Použijte vzorec níže k výpočtu teploty v diskrétních krocích po 1 sekundě a vyberte pravdivý výrok.
 
+[IMAGE: images/q4_image1.png]
+[IMAGE: images/q4_image2.png]
+[IMAGE: images/q4_image10.png]
+[IMAGE: images/q4_image11.png]
+[IMAGE: images/q4_image12.png]
+[IMAGE: images/q4_image13.png]
+[IMAGE: images/q4_image14.png]
+[IMAGE: images/q4_image15.png]
+[IMAGE: images/q4_image78.png]
 
 Options:
+  A) Mezi 7. a 8. sekundou došlo k růstu teploty o 6 °C ±0,2 °C a je to největší růst teploty mezi všemi vzorky.
+  B) Teplota v čase 10 sekund byla 54 °C ±0,2 °C.
+  C) Teplota v čase 12 sekund byla 52 °C ±0,2 °C.
+  D) Pokles teploty mezi 6. a 7. sekundou je stejně velký jako pokles teploty mezi 11. a 12. sekundou.
+  E) Rozdíl teplot mezi 13. a 15. sekundou je stejný jako rozdíl teplot mezi 2. a 3. sekundou.
 
 ======================================================================
 QUESTION 5
 ======================================================================
 
+Vysoká hmotnost elektromobilu, o které byla řeč v předchozích otázkách, se promítá nejen do výroby a namáhání infrastruktury, ale také do samotného pohybu vozidla. Vyšší hmotnost znamená, že je při rozjezdech a při jízdě do kopce potřeba více energie. Tuto energii lze získat buď z nabíjení v domácím prostředí, kde má řidič dostatek času a stabilní zdroj elektřiny, nebo během provozu, kdy elektromobil hospodaří s energií, kterou má právě k dispozici.
+Právě při jízdě se naplno ukazuje význam elektronických systémů vozidla. Při brzdění nebo jízdě z kopce řídicí systém elektromobilu přeměňuje část pohybové energie zpět na elektrickou a ukládá ji do baterie. Tento proces, nazývaný rekuperace, umožňuje částečně „dobíjet“ baterii přímo za jízdy, aniž by bylo nutné připojit vozidlo k nabíjecí stanici.
+Nabízí se proto otázka, kolik energie lze při jízdě po konkrétní trase skutečně ušetřit nebo získat zpět, pokud je rekuperace využita na maximum.
+Pomocí plánovače tras mapy.com (rychlá trasa nezohledňující provoz) naplánujte trasu mezi následujícími souřadnicemi: Start: 50.2294022N, 16.2924700E Průjezdní bod: 50.3232233N, 16.3910814E Cíl: 50.2994106N, 16.4423089E
+Uvažujte, že vozidlem, kterým jedete, je Škoda Elroq Selection 85x. Pro výpočty použijte pohotovostní hmotnost vozidla a WLTP spotřebu.
+Pro výpočet energie potřebné na jízdu do kopce/rekuperované při jízdě z kopce použijte následující vztah:
+Určete celkovou bilanci energie elektromobilu v kWh pro celou trasu. Při výpočtu počítejte, že cesta ze startu do průjezdního bodu je pouze do kopce a z průjezdního bodu do cíle trasy pouze z kopce, tudíž zde bude probíhat pouze rekuperace.
 
+[IMAGE: images/q5_image16.png]
+[IMAGE: images/q5_image17.png]
+[IMAGE: images/q5_image18.png]
+[IMAGE: images/q5_image19.png]
+[IMAGE: images/q5_image20.png]
 
 Options:
+  A) 2,54 kWh
+  B) 4,73 kWh
+  C) 5,04 kWh
+  D) 5,72 kWh
+  E) 6,73 kWh
 
 ======================================================================
 QUESTION 6
 ======================================================================
 
+Základové konstrukce se dají rozdělit na plošné a hlubinné. Jedním z nejvíce používaných typů hlubinných základů je pilota. Pilota je nosná základová konstrukce stavby přenášející zatížení z horní stavby do zeminy prostřednictvím tření na jejím plášti a odporem v patě. Zjednodušeně si pilotu představte jako sloup v zemině, o který se horní stavba může opřít, obdobně jako například střecha budov o běžné sloupy. Ukázka, jak přenáší pilota zatížení, je na obrázku č. 2 vlevo.
+Pro posouzení únosnosti piloty je důležité znát velké množství parametrů a provést řadu výpočtů. Jedním z výpočtů je výpočet sedání, ze kterého se sestavuje tzv. mezní zatěžovací křivka. Ta vykresluje, o kolik si konstrukce piloty sedne, když se vyvodí dané zatížení. Na to má vliv samozřejmě konstrukce piloty, ale především geologické okolí. Statik již na první pohled z křivky pozná, jak moc je okolí piloty tuhé nebo měkké, právě podle jejího tvaru a průběhu. Ukázka mezní zatěžovací křivky je na obrázku č. 1. Nejdůležitějšími body křivky jsou bod s hodnotami s y a R y (někdy také uváděné jako R sy ), body pro limitní sedání 25 mm a jim odpovídající zatížení R c .
+Obrázek č. 1 Obecné schéma mezní zatěžovací křivky
+Tyto křivky se ve většině případů počítají v softwarech. Ty nemusí, ale mohou chybovat a v případě potřeby si je statik musí umět ověřit vlastním výpočtem. Aby se daly spočítat, může statik použít postup uvedený na stránkách výpočetního softwaru: https://www.fine.cz/napoveda/geo5/cs/postup-podle-masopusta-01/
+Nyní si představíme modelovou situaci, kdy existuje pilota o délce 10 m a průměru 0,9 m. Geologický profil se skládá z vrstvy jílu o tloušťce 5 m a poté vrstvy písku o tloušťce také 5 m. Schéma příkladu je uvedeno na obrázku č. 2 v pravé části.
+Obrázek č. 2 Schéma působení konstrukce piloty a zadání příkladu
+Pro představenou situaci a podmínky vyberte z níže uvedených mezních zatěžovacích křivek tu, která nejvíce odpovídá zadanému příkladu. Využijte odkazu uvedeného výše pro postup výpočtu.
+Při výpočtu uvažujte následující zjednodušení:
 
+[IMAGE: images/q6_image83.png]
+[IMAGE: images/q6_image86.png]
+[IMAGE: images/q6_image21.png]
 
 Options:
+  A) 
+  B) 
+  C) 
+  D) 
+  E) 
 
 ======================================================================
 QUESTION 7
 ======================================================================
 
+V železobetonových konstrukcích je množství výztuže a její umístění klíčové pro posouzení únosnosti. U jednoduchých konstrukcí se na vyztužení posuzuje vzorový příčný řez, jehož výztuž se poté aplikuje na celou délku konstrukce. Umisťování výztuže se řídí několika zásadami. Umisťuje se vždy co nejdále od těžiště průřezu a umisťuje se do části, kde je průřez tažený. Výztuž může být ale i konstrukční, což znamená, že je v průřezu umístěna především kvůli snadnější realizaci dané konstrukce.
+Důležitá je i jejich pozice. Pruty se umísťují do části průřezu, který je tažený, protože výztuž pomáhá zvýšit únosnost v tahu. Tlačená část bývá označována znaménkem mínus a tažená část bývá označována znaménkem plus, což je vykresleno na obrázku níže.
+Pro výpočet využijte následujících předpokladů:
+A) 6 prutů v horní části jako nosná výztuž a 2 pruty v dolní části jako konstrukční výztuž
+B) 6 prutů v dolní části jako nosná výztuž a 2 pruty v horní části jako konstrukční výztuž
+C) 8 prutů ve střední části jako nosná výztuž a 2 pruty v horní i dolní části jako konstrukční výztuž
+D) pouze konstrukční výztuž
+E) 9 prutů v horní části jako nosná výztuž a 2 pruty v dolní části jako konstrukční výztuž
 
+[IMAGE: images/q7_image32.png]
+[IMAGE: images/q7_image77.png]
+[IMAGE: images/q7_image90.png]
+[IMAGE: images/q7_image36.png]
+[IMAGE: images/q7_image37.png]
 
 Options:
+  A) 
+  B) 
+  C) 
+  D) 
+  E) 
 
 ======================================================================
 QUESTION 8
 ======================================================================
 
-
+Představte si město jako živý organismus, kde budovy nejsou jen pevné schránky, ale obrovské banky materiálů. Každý trám, okno nebo betonový panel v takovém městě může mít svůj vlastní digitální pasport. Ten obsahuje informace o tom, z čeho je prvek vyrobený a jak ho ze stavby bezpečně vyjmout, aniž by se poškodil. Tomuto šetrnému rozebrání, které připomíná spíše rozkládání stavebnice, říkáme dekonstrukce. Utopistická idea nebo budoucnost?
+K tomu, abychom o materiálech v budovách měli dokonalý přehled, nám dnes pomáhají BIM technologie (Building Information Modeling). BIM vytváří digitální dvojče budovy, což je podrobný 3D model napěchovaný daty. Díky němu víme o každém šroubku v domě dříve, než se k němu dělníci vůbec přiblíží.
+Největší výzvou pro logistiku je však dokonalé načasování. Často se stává, že dům, který právě rozebíráme, stojí na jedné straně města, zatímco nová stavba, která by jeho materiály mohla využít, roste na opačném konci.
+Která z následujících logistických strategií využívá moderní digitální data k tomu, aby byla v měřítku celého města co nejefektivnější z pohledu úspory emisí i zachování hodnoty materiálů?
 
 Options:
+  A) 
+  B) 
+  C) 
+  D) 
+  E) 
 
 ======================================================================
 QUESTION 9
 ======================================================================
 
+Pro běžného investora střední mzdové třídy navrhujete rekonstrukci domu postaveného v roce 1970 v Mělníku, který se nachází v blízkosti potoka. Cílem investora je snížit tepelné ztráty na úroveň pasivního standardu, ale zároveň musíte zvolit materiál vhodný na zateplení domu v záplavovém území. Investor chce i přes toto technické omezení volit ekologickou variantu zateplení. Kvůli rozměrům pozemku a umístění domu na hranici je ale problém s prostorem pro umístění izolace. Důležitá je také výsledná cena celého zateplení domu.
+Obvod domu je 19,6 m. Tloušťka původního zdiva z obyčejných pálených cihel má půl metru.
+Vaším úkolem je zvolit izolant tak, aby vyhovoval podmínkám investora a výsledná hodnota celé stěny dosáhla doporučených hodnot s prostupem tepla pro pasivní dům. Pro vyhodnocení použijte tabulky dostupné na tomto odkazu: https://www.tzb-info.cz/tabulky-a-vypocty/140-vypocet-prostupu-tepla-vicevrstvou-konstrukci-a-prubehu-teplot-v-konstrukci
+Posuzujte pouze tyto izolační materiály:
 
+[IMAGE: images/q9_image76.png]
+[IMAGE: images/q9_image42.png]
+[IMAGE: images/q9_image44.png]
+[IMAGE: images/q9_image42.png]
+[IMAGE: images/q9_image43.png]
+[IMAGE: images/q9_image45.png]
+[IMAGE: images/q9_image43.png]
 
 Options:
+  A) pro zateplení je nejvhodnější XPS
+  B) pro zateplení je nejvhodnější dřevovláknitá deska
+  C) pro zateplení je nejvhodnější expandovaný korek
+  D) pro zateplení je nejvhodnější pěnové sklo
+  E) pro zateplení je nejvhodnější minerální vlna
 
 ======================================================================
 QUESTION 10
 ======================================================================
 
+V dnešní době existuje celá řada metod tunelování. Je proto nutné je rozdělovat podle jejich principů, na kterých jsou založeny. Jedno z jednodušších dělení vychází z organizace ražby a rozlišuje dva typy postupů: cyklický způsob postupu prací a kontinuální postup tunelování. Oba typy využívají podmínky dočasné stability horniny, dokud není výrub zajištěný výztuží. K cyklickým metodám patří například metoda NRTM.
+Ke kontinuálním metodám se řadí například strojní metoda TBM (z anglického Tunnel Boring Machines). Stroj rozpojuje horninu pomocí rotující razící hlavy, která je hnaná do čelby vysokým přítlakem. Přítlak je umožněn díky upnutí stroje v příčném směru. Toho je dosaženo díky rozpěrným deskám, které se upnou do výrubu, nebo štítovým lisům, které se upínají do vystavěného ostění. Schéma je znázorněno na obrázku níže.
+Na razících hlavách jsou osazeny pracovní nástroje určené k rozpojování horniny. Nejčastěji jsou používány diskové rotační dláty (viz obrázek níže). Tyto disky mají řeznou hranu z tvrdokovu a pod velkým přítlakem rozpojují horninu díky kombinaci soustředného tlaku a příčného tahu. Díky tomu je metoda velmi šetrná k horninovému masívu, což z ní činí velmi vhodný způsob pro pevné horniny. Naopak při použití v nedostatečné kvalitě horniny hrozí zaboření razící hlavy (právě velkým přítlakem) nebo uvíznutí celého stroje v případě zaboření rozpěrných desek. Jak již z obrázků vyplývá, konstrukce strojů umožňuje tunelování pouze pro kruhový profil tunelu nebo profil velmi blízký kruhu. Rozměry již vyrobeného stroje navíc nelze měnit, a proto je jeho použití jednorázové, případně by bylo možné pouze pro ražení tunelu se shodnými rozměry a geologickými podmínkami. Pořizovací náklady na toto strojní vybavení jsou velmi vysoké. Proto je, zejména pro méně významné malé tunely nebo štoly, opravdu důležité zvážit, zda se z ekonomického pohledu použití této metody vyplatí.
+Samotná ražba metodou TBM je extrémně rychlá. V teoretické rovině se rychlost pohybuje v jednotkách m/hod a řádově je schopna postoupit o 10 m za směnu. Skutečná rychlost je ale nižší kvůli nutnosti odvozu značného množství rubaniny (rozpojené horniny), údržbě stroje a zajišťování příčného upevňování. I přesto se ale řadí k nejrychlejším způsobům tunelování. Ve srovnání se zmíněnou metodou NRTM je dokonce až 3x rychlejší.
+Na základě popisu metody a obrázků vyberte pravdivé tvrzení.
 
+[IMAGE: images/q10_image84.png]
+[IMAGE: images/q10_image71.png]
 
 Options:
+  A) Metoda TBM je ze všech dnešních technologií nejvíce univerzální metoda pro tunelování.
+  B) Metoda TBM se z čistě ekonomického hlediska vyplácí při ražbě dlouhých a velmi dlouhých tunelů.
+  C) Metoda TBM nepotřebuje v žádné své části stabilní horninu.
+  D) Metoda TBM se používá při ražbě v prostředí, kde není dobrá znalost horninového prostředí.
+  E) Metoda TBM se dle způsobu ražby řadí k cyklickým metodám.
 
 ======================================================================
 QUESTION 11
 ======================================================================
 
-
+Machine learning (ML) představuje klíčový pilíř moderní umělé inteligence. Jeho podstata nespočívá v psaní pevných instrukcí pro každý jednotlivý úkol, ale ve vývoji algoritmů, které se dokáží učit přímo z dat. Dále se zaměříme na část ML, kterou nazýváme učení bez učitele (unsupervised learning). Tyto algoritmy pracují se soubory dat, které neobsahují žádné štítky ani předem definované „správné odpovědi“. Nejsou tak omezeny lidským očekáváním ani dosavadními znalostmi, což umožňuje objektivní analýzu jakýchkoliv dat. Slouží tak například pro objevování zcela nových poznatků a souvislostí.
+Současné výpočetní kapacity nám umožňují efektivně zpracovávat masivní objemy dat. Typickým příkladem je analýza genetické informace, kterou lze dnes díky moderním metodám sekvenování získat velmi levně a rychle. V moderní biologii se k určování příbuznosti druhů i k predikci zdravotních rizik využívá analýza SNP (Single Nucleotide Polymorphism). Jde o specifická místa v DNA, kde dochází k záměně jednoho nukleotidu oproti referenční variantě. Zatímco některé z těchto záměn mohou vést k závažným patologickým komplikacím, jiné představují zcela neškodné genetické variace.
+Vzhledem k tomu, že genetická informace obsahuje miliony takových míst, je velmi složité pracovat s daty v jejich surové podobě. Proto se využívají metody redukce dimenzionality, jako je PCA (Principal Component Analysis). Hlavním cílem PCA je transformovat původní data do nového souřadného systému. Tento nový souřadný systém dokáže v minimálním počtu dimenzí zachytit maximální možný rozptyl dat. Je pak na volbě analytika, kolik souřadných os (dimenzí) si ve finálním modelu ponechá a jakou míru nevysvětleného rozptylu je ochoten akceptovat výměnou za přehlednost a interpretovatelnost výsledků.
+V této úloze budeme pracovat s 3D bodovým grafem (graf zde: https://www.technologicka-gramotnost.cz/otazka-11 ), který interpretuje výsledky PCA analýzy genetických dat. Vstupní datová sada obsahuje profily devíti druhů živočichů, u nichž bylo identifikováno 500 významných SNP pozic. Původní surová data se tedy nacházela v 500rozměrném prostoru, kde každou osu definoval jeden konkrétní SNP. Abychom tato komplexní data mohli vizualizovat, využili jsme metodu PCA k transformaci souřadnicové soustavy. Pro zobrazení ve 3D prostoru jsme vybrali tři klíčové dimenze (PC1, PC2 a PC3), které zachycují největší rozptyl. U všech os je označeno, kolik procent původního rozptylu vysvětlují.
+Která možnost obsahuje nepravdivé tvrzení?
 
 Options:
+  A) Souřadnice medvěda černého bychom v grafu očekávali na jiném místě. Kdybychom analyzovali SNP u geparda štíhlého, tak bychom očekávali v grafu kladné hodnoty na všech osách.
+  B) Tygr sumaterský je podle PCA nejvíce příbuzný ostatním živočichům z čeledi Felidae, avšak podle osy PC2 ho nedokážeme dobře rozlišit od psovitých šelem.
+  C) Osy PC1, PC2 a PC3 dohromady vysvětlují více než tři čtvrtiny rozptylu dat, přičemž platí, že čím dále jsou od sebe dva body v grafu, tím méně podobné jsou jejich 500rozměrné genetické profily.
+  D) PCA je hojně využívanou metodou pro snížení dimenze analyzovaných dat. Při jeho výpočtu ale nemůžeme využít znalost biologické taxonomie pro lepší rozdělení do shluků.
+  E) Osa PC1 vysvětluje nejvíce rozptylu dat ze všech os a pro základní rozlišení čeledí nám stačí sledovat hodnoty pouze hodnoty na ní. Ani osa PC2, ani osa PC3 nám samostatně nestačí k rozlišení čeledí.
 
 ======================================================================
 QUESTION 12
 ======================================================================
 
-
+Genetická informace se vizuálně projevuje v anatomii a vzhledu jednotlivých druhů. K automatickému rozpoznávání těchto znaků využíváme učení s učitelem (supervised learning). Algoritmus trénujeme na velkém množství označených fotografií, aby se naučil identifikovat typické rysy daných skupin.
+Dominantní technologií jsou zde konvoluční neuronové sítě (CNN). Tyto hluboké sítě obsahují desítky až stovky vrstev, které z obrázků extrahují stále abstraktnější informace. Základním principem vrstvy CNN je pohyb masky (filtru) po obrázku, čímž dochází k detekci příznaků (hran, textur, tvarů). Hodnoty v těchto maskách se neustále upravují během trénování na základě chyby, kterou model udělá při predikci. Cílem je taková úprava masek, aby při příštím průchodu daného obrázku sítí byl již správně klasifikován. Typicky se masky na konci procesu učení zaměřují například na hledání hran nebo kulatých objektů.
+Nyní máte za úkol natrénovat neuronovou síť určenou ke klasifikaci obrázku do tří tříd – kočka domácí, pes domácí a lev indický. Postup:
+Otevřete nástroj Teachable Machine: https://teachablemachine.withgoogle.com/train/image Nahrajte (Open project from file) připravený projekt se sadami: kočka domácí, pes domácí a lev indický (50 obrázků na třídu). Projekt ke stažení zde: https://www.technologicka-gramotnost.cz/otazka-12 . Po dotrénování analyzujte sekci Training -> Under the hood (grafy Accuracy a Loss) a vyzkoušejte klasifikaci na testovacích obrázcích. Obrázky ke stažení zde: https://www.technologicka-gramotnost.cz/otazka-12 .
+Která možnost obsahuje pouze pravdivá tvrzení?
 
 Options:
+  A) Pro dosažení maximální přesnosti na trénovací sadě stačila 1 epocha (pozor na číslování epoch v grafu), protože graf Accuracy ukazuje, že přesnost modelu přesáhla 99 % už po první epoše.
+  B) Graf Loss v sekci Under the hood ukazuje, jak se během trénování snižovala průměrná chyba modelu. Podle grafu můžeme soudit, že pro trénink byly potřeba alespoň tři epochy, poté již chyba přestala výrazně klesat. Obrázek koně model klasifikuje jako kočku nebo lva v závislosti na konkrétním naučení modelu. Každý trénink totiž může vyústit v mírně jinak naučený model.
+  C) Lva, psa i kočku z testovací sady klasifikoval model správně s velkou mírou jistoty. Obrázek slona model klasifikuje jako lva.
+  D) I když model dosáhne vysoké přesnosti na trénovacích datech, může selhat u testovacího obrázku, který je pořízen z neobvyklého úhlu nebo při špatném světle. I když model testovací obrázky nikdy neviděl, tak dokázal správně s velkou mírou jistoty zařadit lva i koně.
+  E) Batch Size 16 znamená, že síť aktualizuje své masky až po prohlédnutí celé trénovací sady (všech 150 obrázků najednou). Learning Rate 0,001 pak určuje, že se model učí nejvyšší možnou rychlostí, jakou software dovoluje.
 
 ======================================================================
 QUESTION 13
 ======================================================================
 
-
+V předchozích úlohách jsme si představili unsupervised learning (PCA) a také supervised learning (CNN). Spojení těchto technologií již dnes výrazně pomáhá například v klinické medicíně zlepšovat diagnostiku pacientů. V budoucnu se v nemocnicích budeme nejspíše setkávat s AI systémy čím dál častěji. Na základě předchozích úloh si můžeme představit třeba systém, který kombinuje vaše SNP data (predispozice k nemocem) s analýzou obrázků kůže, aby odhalil kožní onemocnění. Analýza obrazu poté bude efektivnější o apriorní znalost genetické predispozice konkrétního pacienta. Systém pak může velmi dobře prediktivně varovat, ještě než se objeví první symptomy.
+Nyní se zaměříme na konkrétní studii publikovanou pod unikátním identifikátorem DOI 10.1038/s41598-025-91446-6. Autoři v ní reagují na statistiky Světové zdravotnické organizace (WHO), podle nichž jsou ročně diagnostikovány 2–3 miliony případů rakoviny kůže. Toto onemocnění, charakterizované nekontrolovaným dělením buněk často v důsledku nadměrné expozice UV záření, vyžaduje pro úspěšnou léčbu především včasnou a přesnou identifikaci.
+Výzkumníci pro tento účel vyvinuli specializovanou architekturu CNN s názvem FCDS-CNN. Model byl trénován na rozsáhlém souboru čítajícím více než 10 000 obrázků, které byly kategorizovány do sedmi tříd podle typu kožních lézí (akie, bcc, bkl, df, mel, nv a vasc). Aby se předešlo problému nevyváženosti tříd (kdy je některých onemocnění v datech výrazně více než jiných), byla využita technika data augmentation, která vstupní data drobně modifikuje (např. rotací nebo změnou jasu), a tím uměle rozšiřuje trénovací sadu. Model FCDS-CNN obsahuje více než 15 vrstev a celkem přes 22 milionů parametrů.
+Která možnost obsahuje pouze pravdivá tvrzení týkající se studie?
 
 Options:
+  A) Model FCDS-CNN se ukázal jako lepší klasifikátor než ostatní referenční modely, se kterými byl porovnáván. Více než 99 % trénovatelných parametrů modelu FCDS-CNN se nachází ve vrstvě dense. Pro trénink se po provedení data augmentation použilo více obrázků třídy vasc než třídy df. Nejvyšší hodnota metriky precision pro klasifikaci byla modelu FCDS-CNN naměřena ve třídě df. Z confusion matrix klasifikace modelu FCDS-CNN vyplývá, že obrázky ze třídy df byly klasifikovány téměř všechny správně. Nejvíce chyb v klasifikaci mezi jednotlivými třídami udělal model EfficientNetV2B0, který klasifikoval 50 obrázků ze třídy mel ve třídě nv.
+  B) Model FCDS-CNN se ukázal jako lepší klasifikátor než ostatní referenční modely, se kterými byl porovnáván. Zhruba 80 % trénovatelných parametrů modelu FCDS-CNN se nachází ve vrstvě dense. Pro trénink se po provedení data augmentation použilo méně obrázků třídy vasc než třídy df. Nejnižší hodnota metriky precision pro klasifikaci byla modelu FCDS-CNN naměřena ve třídě df. Z confusion matrix klasifikace modelu FCDS-CNN vyplývá, že obrázky ze třídy df byly klasifikovány téměř všechny správně. Nejvíce chyb v klasifikaci mezi jednotlivými třídami udělal model ResNet152V2, který klasifikoval 36 obrázků ze třídy mel ve třídě nv.
+  C) Model FCDS-CNN se ukázal jako lepší klasifikátor než ostatní referenční modely, se kterými byl porovnáván. Více než 99 % trénovatelných parametrů modelu FCDS-CNN se nachází ve vrstvě dense. Pro trénink se po provedení data augmentation použilo více obrázků třídy vasc než třídy df. Nejnižší hodnota metriky precision pro klasifikaci byla modelu FCDS-CNN naměřena ve třídě df. Z confusion matrix klasifikace modelu FCDS-CNN vyplývá, že jedině obrázky třídy vasc byly klasifikovány všechny správně. Nejvíce chyb v klasifikaci mezi jednotlivými třídami udělal model EfficientNetV2B0, který klasifikoval 50 obrázků ze třídy mel ve třídě nv.
+  D) Model FCDS-CNN se ukázal jako horší klasifikátor než ostatní referenční modely, se kterými byl porovnáván. Více než 99 % trénovatelných parametrů modelu FCDS-CNN se nachází ve vrstvě dense. Nejnižší hodnota metriky precision pro klasifikaci byla modelu FCDS-CNN naměřena ve třídě df. Z confusion matrix klasifikace modelu FCDS-CNN vyplývá, že některé obrázky třídy vasc byly klasifikovány špatně. Nejvíce chyb v klasifikaci mezi jednotlivými třídami udělal model EfficientNetV2B0, který klasifikoval 30 obrázků ze třídy mel ve třídě nv.
+  E) Model FCDS-CNN se ukázal jako lepší klasifikátor než ostatní referenční modely, se kterými byl porovnáván. Více než 99 % trénovatelných parametrů modelu FCDS-CNN se nachází ve vrstvě dense. Pro trénink se po provedení data augmentation použilo méně obrázků třídy vasc než třídy df. Nejvyšší hodnota metriky precision pro klasifikaci byla modelu FCDS-CNN naměřena ve třídě vasc. Z confusion matrix klasifikace modelu FCDS-CNN vyplývá, že obrázky ze třídy df byly klasifikovány téměř všechny správně. Nejvíce chyb v klasifikaci mezi jednotlivými třídami udělal model EfficientNetV2B0, který klasifikoval 50 obrázků ze třídy mel ve třídě nv.
 
 ======================================================================
 QUESTION 14
 ======================================================================
 
+Výroba moderních čipů patří k technologicky nejnáročnějším procesům dnešní doby. Jednotlivé struktury na čipu se vytvářejí v měřítku několika nanometrů pomocí složitých postupů, jako je fotolitografie, nanášení tenkých vrstev materiálů a jejich přesné leptání. Každý krok výroby musí probíhat s extrémní přesností, protože i nepatrná odchylka může ovlivnit výsledné vlastnosti čipu.
+I když je čip po výrobě fyzicky správný a splňuje všechny technické parametry, tím jeho cesta zdaleka nekončí. Čip je obvykle součástí většího systému, kde musí spolupracovat s dalšími obvody, pamětmi, senzory nebo periferiemi. Právě v této fázi se často objevují další úskalí, která už nesouvisí s výrobou samotnou, ale se vzájemnou komunikací mezi jednotlivými čipy.
+Aby celý systém fungoval, musí být správně nastaveny komunikační protokoly, napěťové úrovně i časování signálů. Pokud se některý z těchto parametrů liší, může dojít k situaci, kdy jsou všechny čipy vyrobené správně a nejsou poškozené, ale přesto spolu nedokážou komunikovat.
+Níže naleznete obrázek řídící jednotky připojené ke 4 periferiím.
+Pro potřeby otázky uvažujeme v obrázku pouze ovládací a komunikační vodiče.
+LED – LED svítí v případě, že řídící jednotka zapisuje hodnotu LOW (0 V).
+LCD Displej – zobrazuje aktuální teplotu. Řídící jednotka ho ovládá přes SPI sběrnici. CS je aktivní v LOW. Přes SPI se musí poslat suma dvou hexadecimálních čísel: 0x18 + hodnota aktuální teploty ve stupních Celsia v hexadecimální podobě.
+WiFi modul – slouží k předávání dat na cloud. Řídící jednotka ho ovládá přes SPI sběrnici. CS musí být HIGH. Posílaná data skrze MOSI musí vždy začínat aktivační sekvencí, která se spočítá jako 0xAD & 0xF0. Potom následují data, která obsahují aktuální teplotu. Odpověď od WiFi modulu musí vždy být negovaná hodnota dat jako potvrzení o jejich přijetí.
+Teplotní senzor – řídící jednotka pomocí I2C komunikace ze senzoru vyčítá aktuální teplotu. Adresa senzoru je 0x70. Pro příkaz čtení se musí provést operace XOR s adresou a hodnotou 0x01.
+Uvažujme následující sekvence kroků v čase:
+SDA signál obsahuje data 0x71 a vrácená data byla 0x16. PTE4 jde do LOW, PTC18 jde do HIGH. MOSI obsahuje data 0xA0. Další datový rámec na MOSI obsahuje data 0x16. PTA14 jde do LOW, PTE4 jde do HIGH a MOSI obsahuje data 0x16. MOSI obsahuje data 0x2E. PTE4 jde do HIGH.
+Podle poskytnutého obrázku a informací o jednotlivých krocích určete, jaké tvrzení není pravdivé.
 
+[IMAGE: images/q14_image69.png]
 
 Options:
+  A) Přečtená teplota z teplotního senzoru byla 22 °C.
+  B) WiFi modul nepředal do cloudu teplotu 22 °C.
+  C) LED byla zapnuta.
+  D) LCD displej neukazuje správnou teplotu.
+  E) Řídící jednotka ovládala a úspěšně komunikovala se všemi periferiemi alespoň jednou.
 
 ======================================================================
 QUESTION 15
 ======================================================================
 
-
+V předchozí otázce jsme se zabývali tím, jak důležitá je správná komunikace mezi jednotlivými čipy v elektronických zařízeních. Stejný princip však platí i ve výrazně větším měřítku – mezi tisíci až miliony propojených zařízení. Pokud tato zařízení dokážou spolehlivě sbírat a předávat data, lze je využít k efektivnějšímu řízení celých systémů, nikoli jen jednotlivých komponent.
+Na tomto principu je založen koncept chytré planety, který využívá velké množství propojených IoT zařízení k řízení oblastí jako je energetika, průmysl nebo infrastruktura. Díky datům v reálném čase je možné lépe sledovat výrobu a spotřebu elektrické energie, předcházet přetěžování sítí a optimalizovat provoz průmyslových zařízení. Řízení založené na skutečných datech pomáhá snižovat energetické ztráty, omezovat spotřebu fosilních paliv a tím i emise oxidu uhličitého (CO 2 ).
+Uvažujme následující scénář: díky masivnímu nasazení IoT technologií v budovách, průmyslových provozech a infrastruktuře (chytré řízení vytápění, chlazení, výroby a spotřeby energie) by bylo možné snížit emise CO 2 spojené se spotřebou elektrické energie o 15 % ročně.
+Jaké množství CO 2 eq by se díky tomuto řešení ušetřilo v České republice za rok 2024, kdyby bylo nasazeno na uhelné elektrárny? Můžete použít například platformu app.electricitymaps.com .
 
 Options:
+  A) 4,6 Mt CO2eq
+  B) 5,1 Mt CO2eq
+  C) 5,9 Mt CO2eq
+  D) 6,1 Mt CO2eq
+  E) 6,7 Mt CO2eq
 
 ======================================================================
 QUESTION 16
 ======================================================================
 
+V předchozích úlohách jsme si ukázali, jak fungují IoT zařízení a jak mohou v širším kontextu pomáhat řídit velké systémy v rámci konceptu chytré planety. Stejné principy ale lze využít i v mnohem menším měřítku – v jedné konkrétní domácnosti, kde se dá pomocí dat a automatizace snížit spotřeba energie a zároveň zvýšit pohodlí obyvatel.
+Chytrá domácnost využívá IoT prvky k automatickému řízení vytápění, větrání, chlazení, osvětlení a vybraných spotřebičů. Cílem není jen úspora energie, ale i vyšší komfort – systém může reagovat na skutečnou přítomnost lidí v domě, omezit zbytečný provoz a optimalizovat využití energie (například pomocí řízeného větrání s rekuperací).
+Uvažujme rodinný dům, ve kterém žijí 2 dospělí a 2 děti. Předpokládejme, že týdenní spotřeba elektřiny v „nechytré” domácnosti je dle tabulky níže. Pokud by byla domácnost „chytrá“ (řízené větrání, topení, rekuperace apod.), byla by její spotřeba o 20 % nižší.
+Kolik kWh bude týdenní spotřeba u chytré domácnosti?
+Časový interval Obsazenost domu Spotřeba elektrické energie 08:00 – 16:00 2 dospělí + 2 děti 10 kWh 08:00 – 16:00 2 dospělí + 1 dítě 9 kWh 08:00 – 16:00 jiné obsazení 1 kWh 16:00 – 24:00 2 dospělí + 2 děti 7 kWh 16:00 – 24:00 1 dospělý + 2 děti 5 kWh 16:00 – 24:00 pouze děti 2 kWh 24:00 – 08:00 libovolná obsazenost 0,1 kWh
 
+[IMAGE: images/q16_image96.png]
 
 Options:
+  A) 56,5 kWh za týden
+  B) 59,5 kWh za týden
+  C) 62,5 kWh za týden
+  D) 65,5 kWh za týden
+  E) 68,5 kWh za týden
 
 ======================================================================
 QUESTION 17
 ======================================================================
 
+V předchozích otázkách jsme se zabývali tím, jak senzory, čipy a IoT zařízení umožňují sbírat a přenášet data v chytré domácnosti i v rozsáhlých systémech jako je energetika nebo infrastruktura. Stejný princip ale funguje i v oblasti, která se týká každého jednotlivce – lidského zdraví. I zde hrají klíčovou roli miniaturní senzory, schopné dlouhodobě a nepřetržitě sledovat důležité parametry.
+V současnosti máme k dispozici řadu senzorů, které průběžně monitorují fyziologické veličiny lidského těla, jako je VO 2 max, srdeční frekvence, variabilita srdečního rytmu, hladina glukózy nebo kvalita spánku. Tato data umožňují odhadovat zdravotní stav a riziko některých onemocnění, například kardiovaskulárních či metabolických. Zásadní přínos senzorů však nespočívá v jednorázovém měření, ale ve sledování dlouhodobých trendů a včasném zachycení změn, které mohou signalizovat zhoršování zdravotního stavu ještě před vznikem klinických obtíží.
+Efekt dlouhověkosti je založen na společném vyhodnocování dat z více senzorů a jejich správné interpretaci. Jednotlivé odchylky nemusí samy o sobě znamenat nemoc, ale jejich souběh může odhalit skryté problémy, například chronický stres nebo dlouhodobé přetížení organismu. Senzory tak umožňují posun od léčby již vzniklých onemocnění k prevenci a cíleným úpravám životního stylu.
+Uvažujme, že jsme si pořídili chytré hodinky, kterými jsme si změřili některé hodnoty podle grafu níže. Na základě změřených hodnot z grafu určete, jaké tvrzení je pravdivé.
+Parametr Normální stav Zhoršený stav Výrazně špatný stav Možné vyvození VO₂max (ml/kg/min) > 40 30–40 < 30 Nízká kondice, vyšší KV riziko Klidová tepová frekvence (TF) 50–69 bpm 70–85 bpm > 85 bpm Přetížení, nízká kondice Dechová frekvence (spánek) 12–15 / min 16–20 / min > 20 / min Infekce, stres, únava Kvalita spánku (délka + kontinuita) 7–9 h, málo probuzení 6–7 h, častá probuzení < 6 h, fragmentovaný Riziko vyčerpání
+> 40
+> 85 bpm
+> 20 / min
 
+[IMAGE: images/q17_image87.png]
 
 Options:
+  A) Od začátku roku 2025 se VO2max zvýšilo a pak zase kleslo na stejnou úroveň k 1. 6. 2025. Dechová frekvence během spánku se nám zhoršila, ale pak se na zbytek času ustálila.
+  B) Ve druhé polovině roku 2025 se klidová tepová frekvence (TF) ustálila na zhoršené úrovni. Tomu koresponduje i dechová frekvence během spánku.
+  C) Kvalita spánku se sice v grafu neukazuje, ale je možné z ostatních měřených hodnot do určité míry vyvodit, že v první polovině roku 2025 se nám spalo lépe než v té druhé.
+  D) Na začátku roku 2026 máme zhoršené stavy jen některých měřených parametrů.
+  E) VO2max, klidová tepová frekvence a dechová frekvence ve spánku se alespoň na jeden měsíc měření (nepřetržitě) dostaly všechny najednou do normálního stavu.
 
 ======================================================================
 QUESTION 18
 ======================================================================
 
+V letech 2024 a 2025 procházely mobilní sítě v České republice zásadním technologickým milníkem. Zatímco první generace 5G sítí, označovaná jako Non-Standalone, využívala pro svou funkcionalitu stávající infrastrukturu 4G, nová generace sítí 5G Standalone funguje plně samostatně s jádrem běžícím v cloudu. V ČR tuto technologii jako první komerčně spustil jeden z operátorů pod obchodním názvem 5G+.
+Které z následujících tvrzení o technologii 5G Standalone a jejím rozvoji v ČR je pravdivé?
 
+[IMAGE: images/q18_image94.png]
 
 Options:
+  A) Sítě 5G Standalone v ČR fungují výhradně na vysokých frekvencích nad 24 GHz, protože nižší pásma jsou technologicky omezena pouze na provoz v režimu Non-Standalone.
+  B) Podmínkou pro využívání sítě 5G Standalone v Česku je povinná výměna fyzické SIM karty za nový typ Quantum SIM, bez které se zařízení k novému jádru nedokáže autentizovat kvůli použití nových šifrovacích protokolů.
+  C) Operátor T-Mobile dosáhl díky spuštění 5G Standalone v lednu 2025 prvenství v pokrytí, kdy jako jediný v ČR pokryl 100 % území signálem v pásmu n78.
+  D) Technologie 5G Standalone umožňuje tzv. Network Slicing, což je vytvoření virtuálních koncových sítí s různými parametry (například zvýšená spolehlivost na úkor vyšší rychlosti pro kritickou infrastrukturu) na jedné fyzické síti.
+  E) Hlavním technickým přínosem 5G Standalone je odstranění potřeby optických přípojek k základnovým stanicím (BTS), které jsou nově nahrazeny výhradně pasivním odrazem signálu od satelitů na nízké oběžné dráze.
 
 ======================================================================
 QUESTION 19
 ======================================================================
 
+Zatímco první generace průmyslových robotů byla pevně ukotvena k podlaze a vykonávala opakující se pohyby, moderní logistika vyžaduje flexibilitu. Do popředí se tak dostávají autonomní mobilní roboty. Na rozdíl od starších systémů, které pouze sledovaly magnetickou pásku na podlaze, se AMR musí v prostoru orientovat samostatně. Využívají k tomu technologii SLAM (Simultaneous Localization and Mapping) a pokročilé algoritmy pro hledání cesty.
+Pro správnou funkčnost (optimálnost) algoritmu A* musí být heuristika splnitelná, tedy nesmí nikdy přecenit cenu k cíli (není možné, aby se robot do cíle dostal s nižší cenou než s tou, kterou odhadne daná heuristika).
+Které z následujících heuristik nemůžeme použít pro dosažení optimality algoritmu A* v našem simulovaném výrobním závodu (pro heuristiku počítanou pro počáteční pozici S a počet výrobků N)?
 
+[IMAGE: images/q19_image46.png]
+[IMAGE: images/q19_image47.png]
+[IMAGE: images/q19_image48.png]
+[IMAGE: images/q19_image49.png]
+[IMAGE: images/q19_image50.png]
+[IMAGE: images/q19_image75.png]
+[IMAGE: images/q19_image52.png]
+[IMAGE: images/q19_image58.png]
+[IMAGE: images/q19_image59.png]
 
 Options:
+  A) 0
+  B) 1
+  C) 2
+  D) 3
+  E) 4
 
 ======================================================================
 QUESTION 20
 ======================================================================
 
+Zásobování v divočině nebo na horách může být logistický oříšek. Drony v takových situacích nabízí nejen snazší cestu, ale často představují jedinou šanci, jak se k cíli vůbec dostat. S omezenou kapacitou baterie však přichází nutnost chytrého plánování.
+Pro naši modelovou situaci využijeme horské lokace vymodelované ve 3D grafu níže:
+https://www.technologicka-gramotnost.cz/otazka-20
+s reliéfem terénu a lokacemi měst.
+Pro zásobování všech měst byl navržen následující postup:
+města byla rozdělena do skupin (zvýrazněny barevně), v každé skupině měst je předem naplánovaná jedna trasa (zvýrazněna tučnou čarou) dron startuje z lokace Základna, cílová lokace není předem určena a dron se nemusí vrátit zpět na Základnu navázání trajektorie mezi jednotlivými skupinami je na operátorovi dronu (vyznačeno žlutou čarou) se snahou minimalizovat spotřebu baterie
+Sklon dráhy můžeme spočítat jako:
+Dron je vybaven rekuperačním zařízením a z velmi strmých kopců může energii dokonce i vyrábět.
+Jaká je nejefektivnější trasa a jaká bude celková spotřeba baterie?
 
+[IMAGE: images/q20_image60.png]
+[IMAGE: images/q20_image61.png]
+[IMAGE: images/q20_image45.png]
+[IMAGE: images/q20_image62.png]
+[IMAGE: images/q20_image8.png]
+[IMAGE: images/q20_image64.png]
+[IMAGE: images/q20_image19.png]
+[IMAGE: images/q20_image65.png]
 
 Options:
+  A) Celková spotřeba baterie při nejefektivnější trase činí 675 Wh.
+  B) Celková spotřeba baterie při nejefektivnější trase činí 572 Wh.
+  C) Celková spotřeba baterie při nejefektivnější trase činí 603 Wh.
+  D) Celková spotřeba baterie při nejefektivnější trase činí 781 Wh.
+  E) Celková spotřeba baterie při nejefektivnější trase činí 476 Wh.
 
 ======================================================================
 QUESTION 21
 ======================================================================
 
+I když je nejrozšířenější technologií pro 3D tisk stále metoda FDM (při které se taví plastová struna, která se po vrstvách nanáší a tvoří tak výsledný výtisk), je v dnešní době již velmi rozšířenou metodou i technologie MSLA (masked stereolithography), fungující na principu fotopolymeru citlivého na UV světlo, který při ozáření tvrdne.
+Rozdíl tiskových metod je zásadní. Při tisku na klasické FDM tiskárně se musí celý tisknutelný tvar „nakreslit“, doba tisku je tedy závislá jak na výšce, tak i tvaru a objemu celého tisknutého objektu. Resinové tiskárny na rozdíl od toho tisknou celý objekt vrstvu po vrstvě, kdy je vždy každá z nich na nějaký expoziční čas ozářena, následně odlepena od filmu PFA, který se nachází na spodku vaničky na resin, a zvednuta o výšku jedné tiskové vrstvy nahoru (typicky 30–100 mikronů). Doba potřebná pro tisk tedy závisí pouze na parametrech tisku a výšce nejvyššího objektu na tiskové ploše. Tímto principem je technologie MSLA schopna dosáhnout mnohem větších detailů tisku oproti technologii FDM a bývá často využívána pro velmi detailní a malé modely, jako je například hobby výroba figurek do stolních her nebo tisk zubních protéz.
+Při výrobě letošních upomínkových předmětů se lektoři rozhodli vymodelovat velmi detailní modely a ty poté vytisknout na nově pořízené resinové tiskárně Saturn 4 Ultra 16k. V přiloženém modelu můžete vidět přibližný tvar daného upomínkového předmětu: https://drive.google.com/file/d/1FwQUWsdqHTvnXckxIgd_jiMAZKsM6QGv
+Pro tisk lektoři použijí výšku vrstvy 50 mikronů, nastaví počet burn in layers na 10, každou z nich na 30 s, dobu expozice standardní vrstvy na 2 s, čas potřebný k odlepení (lift & retract) na 3 s. Uvažují nad dvěma možnostmi tisku: na plocho (A) a na výšku (B). Při obou variantách se od sebe modely musí nacházet alespoň jeden centimetr. Po každém tisku je nutné tiskovou plochu (a modely) umýt v lázni isopropylalkoholu – proces zabere zhruba 900 sekund a musí být proveden před opětovným tiskem. Každý model se také musí vytvrdit v separátní vytvrzovací stanici pod UV světlem – proces zabere 300 sekund na každých deset vytištěných modelů (a bude proveden po dokončení tisku všech modelů). Přebytečné modely není potřeba zpracovávat.
+Lektory zajímá, která z možností A a B je pro 100 výtisků výhodnější a o kolik bude rychlejší.
 
+[IMAGE: images/q21_image73.png]
 
 Options:
+  A) Varianta B bude rychlejší přibližně o 96 minut.
+  B) Varianta A bude rychlejší přibližně o 47 minut.
+  C) Varianta A bude rychlejší přibližně o 73 minut.
+  D) Varianta B bude rychlejší přibližně o 15 minut.
+  E) Varianta A bude rychlejší přibližně o 28 minut.
 
 ======================================================================
 QUESTION 22
 ======================================================================
 
+Non-Fungible Token (NFT) je kryptografický token na blockchainu, který reprezentuje vlastnictví unikátních položek jako je digitální umění, sběratelské předměty, nemovitosti a mnoho dalších. Jedním z prvních velmi úspěšných NFT projektů byla populární hra CryptoKitties ( https://www.cryptokitties.co/ ), ve které si uživatelé mohli kupovat digitální kočky reprezentované jako NFT tokeny. Snad nejúspěšnějším NFT projektem se stal Bored Ape Yacht Club ( https://boredapeyachtclub.com/ ), kde si sběratelé mohou zakoupit tokeny reprezentující obrázky opic. Je důležité poznamenat, že samotný obrázek často není uložen přímo na blockchainu; místo toho jde pouze o odkaz na server mimo blockchain, kde jsou uložena metadata, přičemž tento odkaz je součástí tokenového smart kontraktu. Pro tuto otázku jsme si pro vás připravili jedinečnou NFT kolekci FEL studentů (FELSC). Každý token reprezentuje studenta s unikátní kombinací vlastností: studijní program, spánkový status a studijní pomůcka. Zde vidíte ukázku několika kousků z této kolekce:
+Náš vývojář (s adresou 0x841bcED65cF26570d89A3fBFa65D0aCb9593269d) nasadil na testovací síti Sepolia ( https://sepolia.etherscan.io/ ) chytrý kontrakt pro NFT sbírku FEL studentů (s adresou 0x6456479d3Df254a21a5726173A581fce0B26842d). Aby omezil, kdo může vytvářet (mintovat) nové NFT tokeny, nastavil do kontraktu tajné heslo. Bohužel udělal zásadní chybu. Heslo nastavil běžnou transakcí, čímž ho nevědomky zveřejnil celému světu. Vaším úkolem je zahrát si na hackera, najít toto heslo a tím získat možnost mintovat své NFT studenty FEL v hodnotě milionů dolarů.
+Adresa NFT chytrého kontraktu na Sepolia Ether Scanu je:
+https://sepolia.etherscan.io/address/0x6456479d3Df254a21a5726173A581fce0B26842d
+Jaké je tajné heslo, které umožňuje mintovat nové NFT tokeny z kolekce FEL studentů?
 
+[IMAGE: images/q22_image74.png]
 
 Options:
+  A) TEOL_NFT
+  B) TEOL2026
+  C) !TEOL2026!
+  D) T.E.O.L.2026
+  E) Technologicka2026
 
 ======================================================================
 QUESTION 23
 ======================================================================
 
-
+První blok v blockchainu Bitcoinu, známý jako Genesis Block (blok 0), vytěžil Satoshi Nakamoto. Satoshi Nakamoto je pseudonym osoby nebo skupiny lidí, kteří navrhli původní protokol Bitcoinu a zveřejnili jeho whitepaper v roce 2008. Skutečná identita tvůrce zůstává dodnes neznámá, což podtrhuje decentralizovanou povahu sítě. Genesis blok je speciální tím, že je „natvrdo“ napsaný ve zdrojovém kódu klienta a neobsahuje odkaz na žádný předchozí blok. Satoshi do něj navíc vložil skrytou zprávu. V parametru coinbase jediné transakce v tomto bloku (tzv. coinbase transakce, která generuje nové bitcoiny) je zakódován text v hexadecimálním formátu:
+04ffff001d0104455468652054696d65732030332f4a616e2f32303039204368616e63656c6c6f72206f6e206272696e6b206f66207365636f6e64206261696c6f757420666f722062616e6b73
+Tuto zprávu si můžete ověřit přímo v blockchain průzkumníku například zde: https://mempool.space/tx/4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b
+Tato zpráva má hlubší význam, který přesahuje pouhý text. Slouží jako nezvratný časový důkaz (timestamp), že Genesis blok nemohl být vytvořen před datem vydání novin, jejichž titulek zpráva cituje. Tím Satoshi efektivně vyvrátil jakékoli podezření z tajné těžby (pre-miningu) před veřejným spuštěním sítě. Zároveň výběr právě tohoto titulku o záchraně bank není náhodný; představuje symbolickou a trvalou kritiku nestability tradičního centralizovaného finančního systému, proti kterému byl Bitcoin navržen jako alternativa.
+Dohledejte titulní stranu vydání novin, o kterých je řeč. Hned vedle hlavního článku (který Satoshi citoval) je upoutávka na článek v sekci Business o tom, že řetězec hospod (pub chain) zlevňuje pivo.
+Z jaké ceny na jakou cenu tento řetězec zlevnil pintu piva dle novinového článku?
 
 Options:
+  A) z £1.99 na 99p
+  B) z £1.69 na 99p
+  C) z £1.79 na 99p
+  D) z £1.59 na 99p
+  E) žádná taková upoutávka na titulní straně není
 
 ======================================================================
 QUESTION 24
 ======================================================================
 
-
+V éře, kdy se naše životy čím dál více přesouvají do digitálního prostoru, přestává být kybernetická bezpečnost pouze doménou IT specialistů a stává se nutností pro každého z nás. Je potřeba, abychom byli schopni hrozby rozeznat a taktéž jim byli schopni aktivně předcházet.
+Jedním z nejčastěji se vyskytujících (a také nejvíce komplikovaných) typů útoků je social engineering, metoda, kdy vás útočník donutí udělat něco, co byste za normálních okolností nikdy neudělali. Například email se může tvářit jako obchodní nabídka s přílohou ve formátu pdf, která se ale nakonec ukáže být spustitelnou aplikací, ještě navíc malwarem.
+Při přípravě TEOLu 2026 jednomu z našich lektorů právě takový Malspam přišel a jeho počítač byl zavirován. Jelikož jsme připojení naší sítě monitorovali, můžeme poskytnout soubor zachytávající internetovou komunikaci, která na jeho počítači probíhala. Typicky se pro analýzu takových záznamů používá nástroj Wireshark, my vám práci usnadníme následující webovou stránkou: https://app.packetsafari.com/analyze/l/C-jKb5sBm9P6RbZdOGw-
+Jaká je seed fráze k bitcoin peněžence daného lektora, kterou mu malware ukradl?
 
 Options:
+  A) rubber finish tonight cable spin shy pioneer extend text shaft ball stool
+  B) cloth involve chair innocent coin moon universe boring truly warm jelly wrestle
+  C) coffee attract acquire bronze blanket argue insane damp scatter bundle deputy blind
+  D) bag twelve caught broom essay grit pelican remove method twelve small elegant
+  E) sea dove cheese kidney more review elephant high face update ugly express
 
 ======================================================================
 QUESTION 25
 ======================================================================
 
+V nekonečnosti vesmíru se může na první pohled zdát, že je vše dílem náhody a chaosu. Ve skutečnosti je však celý jeho chod řízen pevným souborem pravidel. Nějaká jsme již dávno objevili, jako například vliv gravitace či zákony termodynamiky, o jiných stále nevíme zhola nic.
+V sedmdesátých letech minulého století přišel britský matematik John Conway s myšlenkou, že i to nejsložitější chování, jako je třeba biologický život, může povstat z naprosto triviální sady pravidel. Vytvořil takzvanou Hru života, simulaci, ve které se buňky řídí pravidly podle jejich sousedů na čtvercové síti.
+BX – buňka se zrodí, pokud se počet sousedů rovná číslu/číslům X. SY – buňka přežije, pokud se počet jejích sousedů rovná číslu/číslům Y. V ostatních případech buňka umírá. Například pravidlo S34 by znamenalo, že buňka přežije, pokud má 3 nebo 4 sousedy.
+Cellulární automaty jsou schopny velmi komplexních operací a výpočtů, které často připomínají chování živých organismů, nebo jsou schopny simulovat chování počítačů. Pro lepší představu můžete použít aplikaci Golly, která má i interaktivní webovou verzi: https://golly.sourceforge.io/webapp/golly.html
+Teď již k samotné otázce. Píše se rok 3012. V systému Sirius byl detekován zvláštní signál vykazující známky vyspělé civilizace. Po zaměření teleskopů na zdroj jsme byli schopni pozorovat následující chování: https://youtu.be/kHf4pGzDBX8
+Jaká pravidla máme použít, abychom byli schopni simulovat chování této civilizace pomocí buněčného automatu a mohli se tak připravit na její budoucí akce?
 
+[IMAGE: images/q25_image66.png]
 
 Options:
+  A) B3/S23
+  B) B368/S245
+  C) B36/S23
+  D) B4/S2357
+  E) B47/S234

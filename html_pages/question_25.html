@@ -32,9 +32,51 @@
 </header>
 <div class="content">
 <section class="section-top">
-<div class="row">
-<div class="col c"><h2>Upozornění</h2><p>Tento tým již test vyplňuje na jiném zařízení. Pokud chcete ukončit relaci a pokračovat na tomto zařízení, klikněte <a href="quiz?resethash=1">zde</a>.</p></div></div>
+<div class="quiz-wrap" id="qh">
+<div class="question-body">
+<div class="navigation top">
+<a class="nav-btn prev" href="quiz/24#qh">&lt;  předchozí</a>
+<div class="questions-wrap"><div><a href="quiz/1#qh">1</a></div><div><a href="quiz/2#qh">2</a></div><div><a href="quiz/3#qh">3</a></div><div><a href="quiz/4#qh">4</a></div><div><a href="quiz/5#qh">5</a></div><div><a href="quiz/6#qh">6</a></div><div><a href="quiz/7#qh">7</a></div><div><a href="quiz/8#qh">8</a></div><div><a href="quiz/9#qh">9</a></div><div><a href="quiz/10#qh">10</a></div><div><a href="quiz/11#qh">11</a></div><div><a href="quiz/12#qh">12</a></div><div><a href="quiz/13#qh">13</a></div><div><a href="quiz/14#qh">14</a></div><div><a href="quiz/15#qh">15</a></div><div><a href="quiz/16#qh">16</a></div><div><a href="quiz/17#qh">17</a></div><div><a href="quiz/18#qh">18</a></div><div><a href="quiz/19#qh">19</a></div><div><a href="quiz/20#qh">20</a></div><div><a href="quiz/21#qh">21</a></div><div><a href="quiz/22#qh">22</a></div><div><a href="quiz/23#qh">23</a></div><div><a href="quiz/24#qh">24</a></div><div class="active"><a href="quiz/25#qh">25</a></div>
+</div>
+<a class="nav-btn next" style="display: none; color: transparent; pointer-events: none;">další  &gt;</a>
+</div>
+<form action="" class="question-wrap" method="POST">
+<input name="q" type="hidden" value="25"/>
+<div class="question">
+<p>V nekonečnosti vesmíru se může na první pohled zdát, že je vše dílem náhody a chaosu. Ve skutečnosti je však celý jeho chod řízen pevným souborem pravidel. Nějaká jsme již dávno objevili, jako například vliv gravitace či zákony termodynamiky, o jiných stále nevíme zhola nic.</p>
+<p>V sedmdesátých letech minulého století přišel britský matematik John Conway s myšlenkou, že i to nejsložitější chování, jako je třeba biologický život, může povstat z naprosto triviální sady pravidel. Vytvořil takzvanou Hru života, simulaci, ve které se buňky řídí pravidly podle jejich sousedů na čtvercové síti.</p>
+<p>Hra života je podmnožinou takzvaných buněčných automatů, v nichž se stav světa mění v diskrétních časových krocích z času <img alt="" src="images/q25_image66.png" style="position: relative;top: 10px;"/> do času <img alt="" src="images/quiz-teol26/image67.png" style="position: relative;top: 10px;"/> a každá buňka má <img alt="" src="images/quiz-teol26/image41.png" style="position: relative;top: 10px;"/> stavů (nejčastěji 2: 0 – neživá, 1 – živá). Každý krok je závislý na daných pozicích živých buněk a pravidel:</p>
+<ul>
+<li>BX – buňka se zrodí, pokud se počet sousedů rovná číslu/číslům X.</li>
+<li>SY – buňka přežije, pokud se počet jejích sousedů rovná číslu/číslům Y.</li>
+<li>V ostatních případech buňka umírá.</li>
+<li>Například pravidlo S34 by znamenalo, že buňka přežije, pokud má 3 nebo 4 sousedy.</li>
+</ul>
+<p>Cellulární automaty jsou schopny velmi komplexních operací a výpočtů, které často připomínají chování živých organismů, nebo jsou schopny simulovat chování počítačů. Pro lepší představu můžete použít aplikaci Golly, která má i interaktivní webovou verzi: <br/><a href="https://golly.sourceforge.io/webapp/golly.html" target="_blank">https://golly.sourceforge.io/webapp/golly.html</a></p>
+<p>Teď již k samotné otázce. Píše se rok 3012. V systému Sirius byl detekován zvláštní signál vykazující známky vyspělé civilizace. Po zaměření teleskopů na zdroj jsme byli schopni pozorovat následující chování: <a href="https://youtu.be/kHf4pGzDBX8" target="_blank">https://youtu.be/kHf4pGzDBX8</a></p>
+<p>Jaká pravidla máme použít, abychom byli schopni simulovat chování této civilizace pomocí buněčného automatu a mohli se tak připravit na její budoucí akce?</p>
+</div>
+<div class="answers">
+<div class="option-wrap"><input class="radio-answer" id="option_1" name="answer" style="display: none;" type="radio" value="1"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_1">B3/S23</label></div>
+<div class="option-wrap"><input class="radio-answer" id="option_2" name="answer" style="display: none;" type="radio" value="2"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_2">B368/S245</label></div>
+<div class="option-wrap"><input class="radio-answer" id="option_3" name="answer" style="display: none;" type="radio" value="3"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_3">B36/S23</label></div>
+<div class="option-wrap"><input class="radio-answer" id="option_4" name="answer" style="display: none;" type="radio" value="4"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_4">B4/S2357</label></div>
+<div class="option-wrap"><input class="radio-answer" id="option_5" name="answer" style="display: none;" type="radio" value="5"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_5">B47/S234</label></div>
+</div>
+<button class="quiz-btn save" id="save-answer">Uložit odpověď</button>
+<div class="clear"></div>
+<div class="navigation bottom">
+<a class="nav-btn prev" href="quiz/24#qh">&lt;  předchozí</a>
+<div class="questions-wrap"><div><a href="quiz/1#qh">1</a></div><div><a href="quiz/2#qh">2</a></div><div><a href="quiz/3#qh">3</a></div><div><a href="quiz/4#qh">4</a></div><div><a href="quiz/5#qh">5</a></div><div><a href="quiz/6#qh">6</a></div><div><a href="quiz/7#qh">7</a></div><div><a href="quiz/8#qh">8</a></div><div><a href="quiz/9#qh">9</a></div><div><a href="quiz/10#qh">10</a></div><div><a href="quiz/11#qh">11</a></div><div><a href="quiz/12#qh">12</a></div><div><a href="quiz/13#qh">13</a></div><div><a href="quiz/14#qh">14</a></div><div><a href="quiz/15#qh">15</a></div><div><a href="quiz/16#qh">16</a></div><div><a href="quiz/17#qh">17</a></div><div><a href="quiz/18#qh">18</a></div><div><a href="quiz/19#qh">19</a></div><div><a href="quiz/20#qh">20</a></div><div><a href="quiz/21#qh">21</a></div><div><a href="quiz/22#qh">22</a></div><div><a href="quiz/23#qh">23</a></div><div><a href="quiz/24#qh">24</a></div><div class="active"><a href="quiz/25#qh">25</a></div>
+</div>
+<a class="nav-btn next" style="display: none; color: transparent; pointer-events: none;">další  &gt;</a>
+</div>
+<button class="quiz-btn terminate" name="finish" onclick="return(confirm('Opravdu chcete ukončit test?'));">Ukončit test</button>
+</form>
+</div>
+</div>
 </section>
+<script type="text/javascript">setTimeout(function(){window.location.reload();},10455000)</script>
 </div>
 <footer>
 <p>©2021 by Technologická gramotnost s.r.o.</p>

@@ -32,9 +32,51 @@
 </header>
 <div class="content">
 <section class="section-top">
-<div class="row">
-<div class="col c"><h2>Upozornění</h2><p>Tento tým již test vyplňuje na jiném zařízení. Pokud chcete ukončit relaci a pokračovat na tomto zařízení, klikněte <a href="quiz?resethash=1">zde</a>.</p></div></div>
+<div class="quiz-wrap" id="qh">
+<div class="question-body">
+<div class="navigation top">
+<a class="nav-btn prev" href="quiz/4#qh">&lt;  předchozí</a>
+<div class="questions-wrap"><div><a href="quiz/1#qh">1</a></div><div><a href="quiz/2#qh">2</a></div><div><a href="quiz/3#qh">3</a></div><div><a href="quiz/4#qh">4</a></div><div class="active"><a href="quiz/5#qh">5</a></div><div><a href="quiz/6#qh">6</a></div><div><a href="quiz/7#qh">7</a></div><div><a href="quiz/8#qh">8</a></div><div><a href="quiz/9#qh">9</a></div><div><a href="quiz/10#qh">10</a></div><div><a href="quiz/11#qh">11</a></div><div><a href="quiz/12#qh">12</a></div><div><a href="quiz/13#qh">13</a></div><div><a href="quiz/14#qh">14</a></div><div><a href="quiz/15#qh">15</a></div><div><a href="quiz/16#qh">16</a></div><div><a href="quiz/17#qh">17</a></div><div><a href="quiz/18#qh">18</a></div><div><a href="quiz/19#qh">19</a></div><div><a href="quiz/20#qh">20</a></div><div><a href="quiz/21#qh">21</a></div><div><a href="quiz/22#qh">22</a></div><div><a href="quiz/23#qh">23</a></div><div><a href="quiz/24#qh">24</a></div><div><a href="quiz/25#qh">25</a></div>
+</div>
+<a class="nav-btn next" href="quiz/6#qh">další  &gt;</a>
+</div>
+<form action="" class="question-wrap" method="POST">
+<input name="q" type="hidden" value="5"/>
+<div class="question">
+<p>Vysoká hmotnost elektromobilu, o které byla řeč v předchozích otázkách, se promítá nejen do výroby a namáhání infrastruktury, ale také do samotného pohybu vozidla. Vyšší hmotnost znamená, že je při rozjezdech a při jízdě do kopce potřeba více energie. Tuto energii lze získat buď z nabíjení v domácím prostředí, kde má řidič dostatek času a stabilní zdroj elektřiny, nebo během provozu, kdy elektromobil hospodaří s energií, kterou má právě k dispozici.</p>
+<p>Právě při jízdě se naplno ukazuje význam elektronických systémů vozidla. Při brzdění nebo jízdě z kopce řídicí systém elektromobilu přeměňuje část pohybové energie zpět na elektrickou a ukládá ji do baterie. Tento proces, nazývaný rekuperace, umožňuje částečně „dobíjet“ baterii přímo za jízdy, aniž by bylo nutné připojit vozidlo k nabíjecí stanici.</p>
+<p>Nabízí se proto otázka, kolik energie lze při jízdě po konkrétní trase skutečně ušetřit nebo získat zpět, pokud je rekuperace využita na maximum.</p>
+<p>Pomocí plánovače tras <a href="http://mapy.com" target="_blank">mapy.com</a> (rychlá trasa nezohledňující provoz) naplánujte trasu mezi následujícími souřadnicemi:<br/>Start: 50.2294022N, 16.2924700E<br/>Průjezdní bod: 50.3232233N, 16.3910814E<br/>Cíl: 50.2994106N, 16.4423089E</p>
+<p>Uvažujte, že vozidlem, kterým jedete, je Škoda Elroq Selection 85x. Pro výpočty použijte pohotovostní hmotnost vozidla a WLTP spotřebu.</p>
+<p>Pro výpočet energie potřebné na jízdu do kopce/rekuperované při jízdě z kopce použijte následující vztah:</p>
+<p><img alt="" src="images/q5_image16.png" style="position: relative;top: 5px;"/></p>
+<p><img alt="" src="images/q5_image17.png" style="position: relative;top: 5px;"/> … energie v kWh</p>
+<p><img alt="" src="images/q5_image18.png" style="position: relative;top: 5px;"/> … konstanta: pro stoupání 0,003; pro klesání 0,002</p>
+<p><img alt="" src="images/q5_image19.png" style="position: relative;top: 5px;"/> … převýšení v metrech</p>
+<p><img alt="" src="images/q5_image20.png" style="position: relative;top: 5px;"/> … pohotovostní hmotnost vozidla v tunách</p>
+<p>Určete celkovou bilanci energie elektromobilu v kWh pro celou trasu. Při výpočtu počítejte, že cesta ze startu do průjezdního bodu je pouze do kopce a z průjezdního bodu do cíle trasy pouze z kopce, tudíž zde bude probíhat pouze rekuperace.</p>
+</div>
+<div class="answers">
+<div class="option-wrap"><input class="radio-answer" id="option_1" name="answer" style="display: none;" type="radio" value="1"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_1">2,54 kWh</label></div>
+<div class="option-wrap"><input class="radio-answer" id="option_2" name="answer" style="display: none;" type="radio" value="2"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_2">4,73 kWh</label></div>
+<div class="option-wrap"><input class="radio-answer" id="option_3" name="answer" style="display: none;" type="radio" value="3"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_3">5,04 kWh</label></div>
+<div class="option-wrap"><input class="radio-answer" id="option_4" name="answer" style="display: none;" type="radio" value="4"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_4">5,72 kWh</label></div>
+<div class="option-wrap"><input class="radio-answer" id="option_5" name="answer" style="display: none;" type="radio" value="5"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_5">6,73 kWh</label></div>
+</div>
+<button class="quiz-btn save" id="save-answer">Uložit odpověď</button>
+<div class="clear"></div>
+<div class="navigation bottom">
+<a class="nav-btn prev" href="quiz/4#qh">&lt;  předchozí</a>
+<div class="questions-wrap"><div><a href="quiz/1#qh">1</a></div><div><a href="quiz/2#qh">2</a></div><div><a href="quiz/3#qh">3</a></div><div><a href="quiz/4#qh">4</a></div><div class="active"><a href="quiz/5#qh">5</a></div><div><a href="quiz/6#qh">6</a></div><div><a href="quiz/7#qh">7</a></div><div><a href="quiz/8#qh">8</a></div><div><a href="quiz/9#qh">9</a></div><div><a href="quiz/10#qh">10</a></div><div><a href="quiz/11#qh">11</a></div><div><a href="quiz/12#qh">12</a></div><div><a href="quiz/13#qh">13</a></div><div><a href="quiz/14#qh">14</a></div><div><a href="quiz/15#qh">15</a></div><div><a href="quiz/16#qh">16</a></div><div><a href="quiz/17#qh">17</a></div><div><a href="quiz/18#qh">18</a></div><div><a href="quiz/19#qh">19</a></div><div><a href="quiz/20#qh">20</a></div><div><a href="quiz/21#qh">21</a></div><div><a href="quiz/22#qh">22</a></div><div><a href="quiz/23#qh">23</a></div><div><a href="quiz/24#qh">24</a></div><div><a href="quiz/25#qh">25</a></div>
+</div>
+<a class="nav-btn next" href="quiz/6#qh">další  &gt;</a>
+</div>
+<button class="quiz-btn terminate" name="finish" onclick="return(confirm('Opravdu chcete ukončit test?'));">Ukončit test</button>
+</form>
+</div>
+</div>
 </section>
+<script type="text/javascript">setTimeout(function(){window.location.reload();},10474000)</script>
 </div>
 <footer>
 <p>©2021 by Technologická gramotnost s.r.o.</p>

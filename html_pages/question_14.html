@@ -32,9 +32,58 @@
 </header>
 <div class="content">
 <section class="section-top">
-<div class="row">
-<div class="col c"><h2>Upozornění</h2><p>Tento tým již test vyplňuje na jiném zařízení. Pokud chcete ukončit relaci a pokračovat na tomto zařízení, klikněte <a href="quiz?resethash=1">zde</a>.</p></div></div>
+<div class="quiz-wrap" id="qh">
+<div class="question-body">
+<div class="navigation top">
+<a class="nav-btn prev" href="quiz/13#qh">&lt;  předchozí</a>
+<div class="questions-wrap"><div><a href="quiz/1#qh">1</a></div><div><a href="quiz/2#qh">2</a></div><div><a href="quiz/3#qh">3</a></div><div><a href="quiz/4#qh">4</a></div><div><a href="quiz/5#qh">5</a></div><div><a href="quiz/6#qh">6</a></div><div><a href="quiz/7#qh">7</a></div><div><a href="quiz/8#qh">8</a></div><div><a href="quiz/9#qh">9</a></div><div><a href="quiz/10#qh">10</a></div><div><a href="quiz/11#qh">11</a></div><div><a href="quiz/12#qh">12</a></div><div><a href="quiz/13#qh">13</a></div><div class="active"><a href="quiz/14#qh">14</a></div><div><a href="quiz/15#qh">15</a></div><div><a href="quiz/16#qh">16</a></div><div><a href="quiz/17#qh">17</a></div><div><a href="quiz/18#qh">18</a></div><div><a href="quiz/19#qh">19</a></div><div><a href="quiz/20#qh">20</a></div><div><a href="quiz/21#qh">21</a></div><div><a href="quiz/22#qh">22</a></div><div><a href="quiz/23#qh">23</a></div><div><a href="quiz/24#qh">24</a></div><div><a href="quiz/25#qh">25</a></div>
+</div>
+<a class="nav-btn next" href="quiz/15#qh">další  &gt;</a>
+</div>
+<form action="" class="question-wrap" method="POST">
+<input name="q" type="hidden" value="14"/>
+<div class="question">
+<p>Výroba moderních čipů patří k technologicky nejnáročnějším procesům dnešní doby. Jednotlivé struktury na čipu se vytvářejí v měřítku několika nanometrů pomocí složitých postupů, jako je fotolitografie, nanášení tenkých vrstev materiálů a jejich přesné leptání. Každý krok výroby musí probíhat s extrémní přesností, protože i nepatrná odchylka může ovlivnit výsledné vlastnosti čipu.</p>
+<p>I když je čip po výrobě fyzicky správný a splňuje všechny technické parametry, tím jeho cesta zdaleka nekončí. Čip je obvykle součástí většího systému, kde musí spolupracovat s dalšími obvody, pamětmi, senzory nebo periferiemi. Právě v této fázi se často objevují další úskalí, která už nesouvisí s výrobou samotnou, ale se vzájemnou komunikací mezi jednotlivými čipy.</p>
+<p>Aby celý systém fungoval, musí být správně nastaveny komunikační protokoly, napěťové úrovně i časování signálů. Pokud se některý z těchto parametrů liší, může dojít k situaci, kdy jsou všechny čipy vyrobené správně a nejsou poškozené, ale přesto spolu nedokážou komunikovat.</p>
+<p>Níže naleznete obrázek řídící jednotky připojené ke 4 periferiím.</p>
+<p class="img"><img alt="" src="images/q14_image69.png" title=""/></p>
+<p>Pro potřeby otázky uvažujeme v obrázku pouze ovládací a komunikační vodiče.</p>
+<p>LED – LED svítí v případě, že řídící jednotka zapisuje hodnotu LOW (0 V).</p>
+<p>LCD Displej – zobrazuje aktuální teplotu. Řídící jednotka ho ovládá přes SPI sběrnici. CS je aktivní v LOW. Přes SPI se musí poslat suma dvou hexadecimálních čísel: 0x18 + hodnota aktuální teploty ve stupních Celsia v hexadecimální podobě.</p>
+<p>WiFi modul – slouží k předávání dat na cloud. Řídící jednotka ho ovládá přes SPI sběrnici. CS musí být HIGH. Posílaná data skrze MOSI musí vždy začínat aktivační sekvencí, která se spočítá jako 0xAD &amp; 0xF0. Potom následují data, která obsahují aktuální teplotu. Odpověď od WiFi modulu musí vždy být negovaná hodnota dat jako potvrzení o jejich přijetí.</p>
+<p>Teplotní senzor – řídící jednotka pomocí I2C komunikace ze senzoru vyčítá aktuální teplotu. Adresa senzoru je 0x70. Pro příkaz čtení se musí provést operace XOR s adresou a hodnotou 0x01.</p>
+<p>Uvažujme následující sekvence kroků v čase:</p>
+<ol start="1">
+<li>SDA signál obsahuje data 0x71 a vrácená data byla 0x16.</li>
+<li>PTE4 jde do LOW, PTC18 jde do HIGH. MOSI obsahuje data 0xA0. Další datový rámec na MOSI obsahuje data 0x16.</li>
+<li>PTA14 jde do LOW, PTE4 jde do HIGH a MOSI obsahuje data 0x16.</li>
+<li>MOSI obsahuje data 0x2E.</li>
+<li>PTE4 jde do HIGH.</li>
+</ol>
+<p>Podle poskytnutého obrázku a informací o jednotlivých krocích určete, jaké tvrzení není pravdivé.</p>
+</div>
+<div class="answers">
+<div class="option-wrap"><input class="radio-answer" id="option_1" name="answer" style="display: none;" type="radio" value="1"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_1">Přečtená teplota z teplotního senzoru byla 22 °C.</label></div>
+<div class="option-wrap"><input class="radio-answer" id="option_2" name="answer" style="display: none;" type="radio" value="2"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_2">WiFi modul nepředal do cloudu teplotu 22 °C.</label></div>
+<div class="option-wrap"><input class="radio-answer" id="option_3" name="answer" style="display: none;" type="radio" value="3"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_3">LED byla zapnuta.</label></div>
+<div class="option-wrap"><input class="radio-answer" id="option_4" name="answer" style="display: none;" type="radio" value="4"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_4">LCD displej neukazuje správnou teplotu.</label></div>
+<div class="option-wrap"><input class="radio-answer" id="option_5" name="answer" style="display: none;" type="radio" value="5"/><span class="radioAnswer radiobutton"><em></em></span><label for="option_5">Řídící jednotka ovládala a úspěšně komunikovala se všemi periferiemi alespoň jednou.</label></div>
+</div>
+<button class="quiz-btn save" id="save-answer">Uložit odpověď</button>
+<div class="clear"></div>
+<div class="navigation bottom">
+<a class="nav-btn prev" href="quiz/13#qh">&lt;  předchozí</a>
+<div class="questions-wrap"><div><a href="quiz/1#qh">1</a></div><div><a href="quiz/2#qh">2</a></div><div><a href="quiz/3#qh">3</a></div><div><a href="quiz/4#qh">4</a></div><div><a href="quiz/5#qh">5</a></div><div><a href="quiz/6#qh">6</a></div><div><a href="quiz/7#qh">7</a></div><div><a href="quiz/8#qh">8</a></div><div><a href="quiz/9#qh">9</a></div><div><a href="quiz/10#qh">10</a></div><div><a href="quiz/11#qh">11</a></div><div><a href="quiz/12#qh">12</a></div><div><a href="quiz/13#qh">13</a></div><div class="active"><a href="quiz/14#qh">14</a></div><div><a href="quiz/15#qh">15</a></div><div><a href="quiz/16#qh">16</a></div><div><a href="quiz/17#qh">17</a></div><div><a href="quiz/18#qh">18</a></div><div><a href="quiz/19#qh">19</a></div><div><a href="quiz/20#qh">20</a></div><div><a href="quiz/21#qh">21</a></div><div><a href="quiz/22#qh">22</a></div><div><a href="quiz/23#qh">23</a></div><div><a href="quiz/24#qh">24</a></div><div><a href="quiz/25#qh">25</a></div>
+</div>
+<a class="nav-btn next" href="quiz/15#qh">další  &gt;</a>
+</div>
+<button class="quiz-btn terminate" name="finish" onclick="return(confirm('Opravdu chcete ukončit test?'));">Ukončit test</button>
+</form>
+</div>
+</div>
 </section>
+<script type="text/javascript">setTimeout(function(){window.location.reload();},10466000)</script>
 </div>
 <footer>
 <p>©2021 by Technologická gramotnost s.r.o.</p>
