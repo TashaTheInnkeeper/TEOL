@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Viewer – Technologická olympiáda</title>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #f1f1f1;
+  --white: #ffffff;
+  --header-bg: #b9e0f6;
+  --nav-start: #5f83c2;
+  --nav-mid: #4a5aa8;
+  --nav-end: #592f90;
+  --accent: #271236;
+  --accent-link: #529cc7;
+  --text: #271236;
+  --text-muted: #5d5958;
+  --correct: #20c997;
+  --correct-dark: #0ca678;
+  --incorrect: #dc3545;
+  --border: #ccc;
+  --radius: 8px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+  min-height: 100vh;
+}
+
+a { color: var(--text); text-decoration: none; }
+a:hover { color: var(--accent-link); }
+
+/* Header */
+.site-header {
+  background: var(--header-bg);
+  padding: 12px 0 16px;
+}
+.header-inner {
+  max-width: 960px; margin: 0 auto; padding: 0 24px;
+  display: flex; align-items: center;
+}
+.site-logo img { max-height: 40px; display: block; }
+.site-logo-text {
+  display: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; color: var(--text); font-size: 1.1rem;
+}
+
+/* Start screen */
+#start-screen {
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  min-height: calc(100vh - 72px);
+  gap: 0; padding: 40px 24px;
+  background: var(--white);
+}
+.start-card {
+  background: var(--white);
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  padding: 52px 64px;
+  text-align: center;
+  max-width: 520px; width: 100%;
+  box-shadow: 0 4px 20px rgba(39,18,54,0.09);
+}
+.start-card h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem; font-weight: 600;
+  color: var(--text); margin-bottom: 6px;
+}
+.start-card .sub {
+  color: var(--text-muted); font-size: 0.88rem; margin-bottom: 32px;
+}
+.open-btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  background: linear-gradient(90deg, var(--nav-start) 0, var(--nav-mid) 50%, var(--nav-end));
+  color: #fff; border: none; border-radius: 100px;
+  padding: 13px 34px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem; font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.15s, transform 0.1s;
+  box-shadow: 0 4px 12px rgba(91,47,144,0.35);
+}
+.open-btn:hover { opacity: 0.85; transform: translateY(-1px); }
+.open-btn:active { transform: translateY(0); }
+.hint-box {
+  margin-top: 20px; font-size: 0.8rem; color: var(--text-muted);
+  background: #f7f7f7; border: 1px solid #e5e5e5;
+  border-radius: var(--radius); padding: 9px 18px; line-height: 1.7;
+}
+
+/* Main viewer */
+#main { display: none; }
+
+.quiz-outer { background: var(--white); padding-bottom: 60px; }
+.quiz-wrap {
+  width: 960px; max-width: 100%;
+  margin: 0 auto; padding: 0 24px;
+}
+
+/* Progress */
+.progress-row {
+  padding-top: 24px;
+  display: flex; align-items: center; gap: 14px;
+}
+.progress-label { font-size: 0.78rem; color: var(--text-muted); white-space: nowrap; }
+.progress-track {
+  flex: 1; height: 4px; background: #e0e0e0;
+  border-radius: 2px; overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--nav-start), var(--nav-end));
+  border-radius: 2px;
+  transition: width 0.4s ease;
+}
+.progress-pct { font-size: 0.78rem; color: var(--text-muted); white-space: nowrap; }
+
+/* Navigation bar */
+.nav-bar {
+  background: linear-gradient(90deg, var(--nav-start) 0, var(--nav-mid) 50%, var(--nav-end));
+  border-radius: 100px;
+  height: 50px;
+  display: flex; align-items: center;
+  justify-content: space-between;
+  margin: 20px 0 0;
+  position: relative;
+}
+.nav-btn {
+  cursor: pointer;
+  font-size: 0.82rem; font-weight: 700;
+  color: #fff; background: none; border: none;
+  padding: 0 18px; height: 100%;
+  display: flex; align-items: center;
+  white-space: nowrap;
+  border-radius: 100px;
+  transition: background 0.15s;
+}
+.nav-btn:hover:not(:disabled) { background: rgba(255,255,255,0.12); }
+.nav-btn:disabled { opacity: 0.22; cursor: default; }
+
+.dots-wrap {
+  display: flex; align-items: center; justify-content: center;
+  flex: 1; gap: 2px; padding: 0 6px;
+  overflow: hidden;
+}
+.q-dot {
+  width: 26px; height: 26px; border-radius: 50%;
+  border: 2px solid rgba(255,255,255,0.4);
+  background: transparent;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.62rem; font-weight: 600;
+  color: rgba(255,255,255,0.8);
+  cursor: pointer; flex-shrink: 0;
+  transition: all 0.15s;
+}
+.q-dot:hover:not(.active) { background: rgba(255,255,255,0.18); }
+.q-dot.active {
+  background: rgba(255,255,255,0.28);
+  border-color: #fff; color: #fff;
+  font-weight: 700; font-size: 0.75rem;
+  width: 36px; height: 36px;
+  box-shadow: 0 0 0 3px rgba(255,255,255,0.18);
+}
+
+/* Question */
+.question-area { padding: 40px 0 0; }
+.question p { text-align: justify; margin-bottom: 14px; font-size: 0.92rem; }
+.question p.img { text-align: center; }
+.question img { max-width: 100%; border-radius: 6px; height: auto; }
+.question table { width: 100%; border-collapse: collapse; margin: 12px 0; }
+.question table, .question table tr,
+.question table td, .question table th {
+  border: 1px solid var(--text); border-collapse: collapse;
+}
+.question table td, .question table th { padding: 4px 10px; }
+
+/* Answers */
+.answers-area { margin: 28px 0 36px; }
+.option-wrap {
+  padding: 2px 4px 2px 32px;
+  position: relative; margin-bottom: 6px;
+  border-radius: var(--radius);
+}
+.option-wrap label {
+  padding: 4px 12px; display: block;
+  border-radius: var(--radius);
+  transition: background 0.2s, color 0.2s;
+  cursor: default; font-size: 0.92rem;
+}
+.option-wrap img { max-width: 100%; }
+.radio-dot {
+  height: 16px; width: 16px;
+  background: #e1e1e1; border-radius: 50%;
+  position: absolute; left: 8px; top: 9px;
+  transition: background 0.2s;
+}
+.radio-dot em {
+  display: none; height: 10px; width: 10px;
+  border-radius: 50%; background: #6b6bc3;
+  transform: translate(3px, 3px);
+}
+.radio-dot.selected em { display: block; }
+
+.option-wrap { cursor: pointer; user-select: none; }
+.option-wrap label { cursor: pointer; }
+.option-wrap:hover:not(.correct):not(.incorrect) label { background: #f0f0f0; }
+.option-wrap:hover:not(.correct):not(.incorrect) .radio-dot { background: #c8c8c8; }
+
+.option-wrap.chosen .radio-dot { background: #8080c8; }
+.option-wrap.chosen label { background: #eeeef8; }
+
+.option-wrap.correct .radio-dot { background: var(--correct); }
+.option-wrap.correct label { background: var(--correct); color: #fff; }
+.option-wrap.incorrect .radio-dot { background: var(--incorrect); }
+.option-wrap.incorrect label { background: var(--incorrect); color: #fff; }
+
+/* Reveal btn */
+.reveal-row { text-align: center; padding-bottom: 20px; }
+.reveal-btn {
+  display: inline-flex; align-items: center; gap: 9px;
+  background: var(--white);
+  border: 2px solid #b5b5b5;
+  color: var(--text-muted); border-radius: 100px;
+  padding: 10px 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.88rem; font-weight: 700;
+  cursor: pointer; transition: all 0.18s;
+}
+.reveal-btn:hover {
+  border-color: var(--correct-dark);
+  color: var(--correct-dark); background: #f0fdf7;
+}
+.reveal-btn.active {
+  border-color: var(--correct-dark);
+  background: var(--correct); color: #fff;
+}
+
+/* Keyboard hint */
+.kbd-hint {
+  text-align: center; font-size: 0.75rem; color: #aaa;
+  padding: 16px 0 0;
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+}
+.kbd {
+  display: inline-flex; align-items: center; justify-content: center;
+  background: #f4f4f4; border: 1px solid #ccc;
+  border-bottom: 2px solid #aaa; border-radius: 4px;
+  padding: 1px 7px; font-size: 0.7rem; color: #666;
+}
+
+/* Unsupported */
+.unsupported {
+  background: #fff5f5; border: 1px solid #f5c6cb;
+  border-radius: var(--radius); padding: 14px 20px;
+  color: #721c24; font-size: 0.88rem;
+  max-width: 440px; text-align: center; line-height: 1.5;
+}
+
+/* Footer */
+.site-footer {
+  background: var(--accent); color: #b5dff0;
+  text-align: center; padding: 30px 20px;
+  font-family: "Poppins", sans-serif; font-size: 0.82rem;
+}
+
+@media (max-width: 680px) {
+  .start-card { padding: 36px 20px; }
+  .quiz-wrap { padding: 0 12px; }
+  .q-dot { width: 20px; height: 20px; font-size: 0.5rem; }
+  .q-dot.active { width: 28px; height: 28px; }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="site-logo">
+      <img id="logo-img" src="" alt="Technologická gramotnost"
+           style="display:none" onerror="this.style.display='none'">
+      <span class="site-logo-text" id="logo-text">Technologická olympiáda</span>
+    </div>
+  </div>
+</header>
+
+<!-- START SCREEN -->
+<div id="start-screen">
+  <div class="start-card">
+    <h1>Quiz Viewer</h1>
+    <p class="sub">Technologická olympiáda — otevřete složku s otázkami</p>
+    <div id="open-area">
+      <button class="open-btn" onclick="openFolder()">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M10 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/></svg>
+        Otevřít složku
+      </button>
+    </div>
+    <p class="hint-box">
+      Vyberte složku s soubory <strong>1.html</strong>, <strong>2.html</strong>&nbsp;…<br>
+      Podsložky <strong>1_files/</strong>, <strong>2_files/</strong>&nbsp;… s obrázky se načtou automaticky.
+    </p>
+  </div>
+</div>
+
+<!-- MAIN VIEWER -->
+<div id="main">
+  <div class="quiz-outer">
+    <div class="quiz-wrap">
+
+      <div class="progress-row">
+        <span class="progress-label" id="prog-label">Otázka 1 z 25</span>
+        <div class="progress-track"><div class="progress-fill" id="prog-fill" style="width:4%"></div></div>
+        <span class="progress-pct" id="prog-pct">4 %</span>
+      </div>
+
+      <!-- Top nav -->
+      <div class="nav-bar" id="nav-top">
+        <button class="nav-btn" id="prev1" onclick="navigate(-1)" disabled>&#8249; předchozí</button>
+        <div class="dots-wrap" id="dots-top"></div>
+        <button class="nav-btn" id="next1" onclick="navigate(1)">další &#8250;</button>
+      </div>
+
+      <!-- Question + answers -->
+      <div class="question-area">
+        <div class="question" id="q-content"></div>
+        <div class="answers-area" id="a-list"></div>
+      </div>
+
+      <!-- Reveal -->
+      <div class="reveal-row">
+        <button class="reveal-btn" id="reveal-btn" onclick="toggleReveal()">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+          Zobrazit správné odpovědi
+        </button>
+      </div>
+
+      <!-- Bottom nav -->
+      <div class="nav-bar" style="margin-top:0">
+        <button class="nav-btn" id="prev2" onclick="navigate(-1)" disabled>&#8249; předchozí</button>
+        <div class="dots-wrap" id="dots-bot"></div>
+        <button class="nav-btn" id="next2" onclick="navigate(1)">další &#8250;</button>
+      </div>
+
+      <div class="kbd-hint">
+        <span class="kbd">←</span><span class="kbd">→</span> klávesy pro navigaci
+      </div>
+
+    </div>
+  </div>
+  <footer class="site-footer"><p>©2021 by Technologická gramotnost s.r.o.</p></footer>
+</div>
+
+<script>
+let files = [];
+let imgMap = {};
+let idx = 0;
+let data = null;
+let revealed = false;
+
+async function openFolder() {
+  if (!window.showDirectoryPicker) {
+    document.getElementById('open-area').innerHTML =
+      '<p class="unsupported">Váš prohlížeč nepodporuje File System Access API.<br>Použijte <strong>Chrome</strong> nebo <strong>Edge</strong>.</p>';
+    return;
+  }
+  try {
+    const dir = await window.showDirectoryPicker({ mode: 'read' });
+    files = []; imgMap = {};
+
+    for await (const [name, h] of dir.entries()) {
+      if (h.kind === 'file') {
+        const m = name.match(/^(\d+)\.html?$/i);
+        if (m) files.push({ num: parseInt(m[1]), name, h });
+        if (/\.(png|jpe?g|gif|svg|webp)$/i.test(name)) await cacheImg(name, h);
+      } else if (h.kind === 'directory') {
+        try {
+          for await (const [sn, sh] of h.entries()) {
+            if (sh.kind === 'file' && /\.(png|jpe?g|gif|svg|webp)$/i.test(sn))
+              await cacheImg(sn, sh);
+          }
+        } catch(e) {}
+      }
+    }
+
+    files.sort((a, b) => a.num - b.num);
+    if (!files.length) { alert('Nebyly nalezeny soubory 1.html, 2.html, …'); return; }
+
+    // Try logo
+    const logoH = imgMap['tegram_logo-transparent2.png'];
+    if (logoH) {
+      const li = document.getElementById('logo-img');
+      li.src = logoH; li.style.display = 'block';
+      document.getElementById('logo-text').style.display = 'none';
+    } else {
+      document.getElementById('logo-text').style.display = 'block';
+    }
+
+    buildDots();
+    document.getElementById('start-screen').style.display = 'none';
+    document.getElementById('main').style.display = 'block';
+    idx = 0; await load(0);
+  } catch(e) { if (e.name !== 'AbortError') console.error(e); }
+}
+
+async function cacheImg(name, h) {
+  try {
+    const f = await h.getFile();
+    imgMap[name] = await toB64(f);
+  } catch(e) {}
+}
+
+function toB64(file) {
+  return new Promise((res, rej) => {
+    const r = new FileReader();
+    r.onload = () => res(r.result);
+    r.onerror = rej;
+    r.readAsDataURL(file);
+  });
+}
+
+function buildDots() {
+  ['dots-top','dots-bot'].forEach(id => {
+    const w = document.getElementById(id);
+    w.innerHTML = '';
+    files.forEach(({ num }, i) => {
+      const d = document.createElement('span');
+      d.className = 'q-dot'; d.textContent = num;
+      d.onclick = () => { idx = i; load(i); };
+      w.appendChild(d);
+    });
+  });
+}
+
+function syncDots() {
+  document.querySelectorAll('.q-dot').forEach((d, i) => {
+    d.classList.toggle('active', i % files.length === idx);
+  });
+}
+
+async function load(i) {
+  revealed = false;
+  const f = await files[i].h.getFile();
+  const txt = await f.text();
+  data = parse(txt);
+  render();
+}
+
+function parse(html) {
+  const doc = new DOMParser().parseFromString(html, 'text/html');
+  // Swap image src to base64
+  doc.querySelectorAll('img').forEach(img => {
+    const src = img.getAttribute('src') || '';
+    const fn = src.split('/').pop().split('?')[0];
+    if (imgMap[fn]) img.setAttribute('src', imgMap[fn]);
+    else img.removeAttribute('src');
+  });
+  const qEl = doc.querySelector('.question');
+  const aEl = doc.querySelector('.answers');
+  const answers = [];
+  if (aEl) {
+    aEl.querySelectorAll('.option-wrap').forEach(opt => {
+      const lbl = opt.querySelector('label');
+      const isCorrect = opt.classList.contains('correct');
+      const isSelected = !!opt.querySelector('.radioAnswer.checked');
+      answers.push({ html: lbl ? lbl.innerHTML : '', isCorrect });
+    });
+  }
+  return { qHtml: qEl ? qEl.innerHTML : '<p>Otázka nenalezena.</p>', answers, chosen: new Set() };
+}
+
+function render() {
+  const total = files.length;
+  const num = files[idx].num;
+  const pct = Math.round((idx + 1) / total * 100);
+
+  document.getElementById('prog-label').textContent = `Otázka ${num} z ${total}`;
+  document.getElementById('prog-pct').textContent = pct + ' %';
+  document.getElementById('prog-fill').style.width = pct + '%';
+  document.getElementById('q-content').innerHTML = data.qHtml;
+
+  renderAnswers();
+  syncDots();
+
+  const atStart = idx === 0, atEnd = idx === total - 1;
+  ['prev1','prev2'].forEach(id => document.getElementById(id).disabled = atStart);
+  ['next1','next2'].forEach(id => document.getElementById(id).disabled = atEnd);
+
+  setRevealBtn(false);
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function renderAnswers() {
+  const list = document.getElementById('a-list');
+  list.innerHTML = '';
+  data.answers.forEach(({ html, isCorrect }, i) => {
+    const chosen = data.chosen.has(i);
+    const wrap = document.createElement('div');
+    wrap.className = 'option-wrap';
+
+    if (revealed) {
+      if (isCorrect) wrap.classList.add('correct');
+      else if (chosen) wrap.classList.add('incorrect');
+    } else {
+      if (chosen) wrap.classList.add('chosen');
+    }
+
+    if (!revealed) {
+      wrap.onclick = () => {
+        data.chosen.has(i) ? data.chosen.delete(i) : data.chosen.add(i);
+        renderAnswers();
+      };
+    }
+
+    const dot = document.createElement('span');
+    dot.className = 'radio-dot' + (chosen ? ' selected' : '');
+    const em = document.createElement('em'); dot.appendChild(em);
+    const lbl = document.createElement('label'); lbl.innerHTML = html;
+    wrap.appendChild(dot); wrap.appendChild(lbl);
+    list.appendChild(wrap);
+  });
+}
+
+function toggleReveal() {
+  revealed = !revealed;
+  renderAnswers();
+  setRevealBtn(revealed);
+}
+
+function setRevealBtn(on) {
+  const btn = document.getElementById('reveal-btn');
+  btn.classList.toggle('active', on);
+  if (on) {
+    btn.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M2 4.27l2.28 2.28.46.46C3.08 8.3 1.78 10.02 1 12c1.73 4.39 6 7.5 11 7.5 1.55 0 3.03-.3 4.38-.84l.42.42L19.73 22 21 20.73 3.27 3 2 4.27zm7.53 5.53 1.55 1.55c-.05.21-.08.43-.08.65 0 1.66 1.34 3 3 3 .22 0 .44-.03.65-.08l1.55 1.55c-.67.33-1.41.53-2.2.53-2.76 0-5-2.24-5-5 0-.79.2-1.53.53-2.2zm4.31-.78 3.15 3.15.02-.16c0-1.66-1.34-3-3-3l-.17.01zM12 7c2.76 0 5 2.24 5 5 0 .65-.13 1.26-.36 1.83l2.92 2.92c1.51-1.26 2.7-2.89 3.43-4.75C21.27 7.61 17 4.5 12 4.5c-1.4 0-2.74.25-3.98.7l2.16 2.16C10.74 7.13 11.35 7 12 7z"/></svg> Skrýt odpovědi`;
+  } else {
+    btn.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg> Zobrazit správné odpovědi`;
+  }
+}
+
+async function navigate(dir) {
+  const n = idx + dir;
+  if (n >= 0 && n < files.length) { idx = n; await load(n); }
+}
+
+document.addEventListener('keydown', e => {
+  if (!files.length) return;
+  if (e.key === 'ArrowLeft') navigate(-1);
+  if (e.key === 'ArrowRight') navigate(1);
+});
+</script>
+</body>
+</html>
